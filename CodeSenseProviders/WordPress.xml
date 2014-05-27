@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<codesense>
+    
+    <provider>
+    	<selector>language-root.php, language-root.php *:not(string, string *, comment, delimiter.source.start *)</selector>
+    	<completions>se.olachristensson.sugar.wordpress.functions</completions>
+    	<complete-match>(?&lt;!->|\$|&lt;\?)\b[a-zA-Z0-9_]+</complete-match>
+    </provider>
+
+</codesense>
