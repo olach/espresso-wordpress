@@ -60,7 +60,7 @@
 			<behavior>
 				<append-dynamic>
 					<matched-suffix>(\s*\()|[^\(]</matched-suffix>
-					<transform-into>(?1::(${1:${2:[\\$post]}}\)$0)</transform-into>
+					<transform-into>(?1::(${1:[\\$post]}\)$0)</transform-into>
 				</append-dynamic>
 			</behavior>
 		</completion>
@@ -192,7 +192,7 @@
 			<behavior>
 				<append-dynamic>
 					<matched-suffix>(\s*\()|[^\(]</matched-suffix>
-					<transform-into>(?1::(${1:${2:[\\$request]}}\)$0)</transform-into>
+					<transform-into>(?1::(${1:[\\$request]}\)$0)</transform-into>
 				</append-dynamic>
 			</behavior>
 		</completion>
@@ -344,7 +344,7 @@
 			<behavior>
 				<append-dynamic>
 					<matched-suffix>(\s*\()|[^\(]</matched-suffix>
-					<transform-into>(?1::(${1:${2:[\\$stylesheet]}}\)$0)</transform-into>
+					<transform-into>(?1::(${1:[\\$stylesheet]}\)$0)</transform-into>
 				</append-dynamic>
 			</behavior>
 		</completion>
@@ -352,7 +352,7 @@
 			<behavior>
 				<append-dynamic>
 					<matched-suffix>(\s*\()|[^\(]</matched-suffix>
-					<transform-into>(?1::(${1:${2:[\\$details]}}\)$0)</transform-into>
+					<transform-into>(?1::(${1:[\\$details]}\)$0)</transform-into>
 				</append-dynamic>
 			</behavior>
 		</completion>
@@ -700,7 +700,7 @@
 			<behavior>
 				<append-dynamic>
 					<matched-suffix>(\s*\()|[^\(]</matched-suffix>
-					<transform-into>(?1::(${1:${2:[\\$prev]}}\)$0)</transform-into>
+					<transform-into>(?1::(${1:[\\$prev]}\)$0)</transform-into>
 				</append-dynamic>
 			</behavior>
 		</completion>
@@ -833,7 +833,7 @@
 			<behavior>
 				<append-dynamic>
 					<matched-suffix>(\s*\()|[^\(]</matched-suffix>
-					<transform-into>(?1::(${1:${2:[\\$show]}}\)$0)</transform-into>
+					<transform-into>(?1::(${1:[\\$show]}\)$0)</transform-into>
 				</append-dynamic>
 			</behavior>
 		</completion>
@@ -841,7 +841,7 @@
 			<behavior>
 				<append-dynamic>
 					<matched-suffix>(\s*\()|[^\(]</matched-suffix>
-					<transform-into>(?1::(${1:${2:[\\$show]}}\)$0)</transform-into>
+					<transform-into>(?1::(${1:[\\$show]}\)$0)</transform-into>
 				</append-dynamic>
 			</behavior>
 		</completion>
@@ -849,7 +849,7 @@
 			<behavior>
 				<append-dynamic>
 					<matched-suffix>(\s*\()|[^\(]</matched-suffix>
-					<transform-into>(?1::(${1:${2:[\\$class]}}\)$0)</transform-into>
+					<transform-into>(?1::(${1:[\\$class]}\)$0)</transform-into>
 				</append-dynamic>
 			</behavior>
 		</completion>
@@ -873,7 +873,7 @@
 			<behavior>
 				<append-dynamic>
 					<matched-suffix>(\s*\()|[^\(]</matched-suffix>
-					<transform-into>(?1::(${1:${2:[\\$post_data]}}\)$0)</transform-into>
+					<transform-into>(?1::(${1:[\\$post_data]}\)$0)</transform-into>
 				</append-dynamic>
 			</behavior>
 		</completion>
@@ -906,7 +906,7 @@
 			<behavior>
 				<append-dynamic>
 					<matched-suffix>(\s*\()|[^\(]</matched-suffix>
-					<transform-into>(?1::(${1:${2:[\\$text]}}\)$0)</transform-into>
+					<transform-into>(?1::(${1:[\\$text]}\)$0)</transform-into>
 				</append-dynamic>
 			</behavior>
 		</completion>
@@ -923,7 +923,7 @@
 			<behavior>
 				<append-dynamic>
 					<matched-suffix>(\s*\()|[^\(]</matched-suffix>
-					<transform-into>(?1::(${1:${2:[\\$category]}}\)$0)</transform-into>
+					<transform-into>(?1::(${1:[\\$category]}\)$0)</transform-into>
 				</append-dynamic>
 			</behavior>
 		</completion>
@@ -1087,7 +1087,7 @@
 			<behavior>
 				<append-dynamic>
 					<matched-suffix>(\s*\()|[^\(]</matched-suffix>
-					<transform-into>(?1::(${1:${2:[\\$comment_ID]}}\)$0)</transform-into>
+					<transform-into>(?1::(${1:[\\$comment_ID]}\)$0)</transform-into>
 				</append-dynamic>
 			</behavior>
 		</completion>
@@ -1095,7 +1095,7 @@
 			<behavior>
 				<append-dynamic>
 					<matched-suffix>(\s*\()|[^\(]</matched-suffix>
-					<transform-into>(?1::(${1:${2:[\\$comment_ID]}}\)$0)</transform-into>
+					<transform-into>(?1::(${1:[\\$comment_ID]}\)$0)</transform-into>
 				</append-dynamic>
 			</behavior>
 		</completion>
@@ -1111,7 +1111,7 @@
 			<behavior>
 				<append-dynamic>
 					<matched-suffix>(\s*\()|[^\(]</matched-suffix>
-					<transform-into>(?1::(${1:${2:[\\$comment_ID]}}\)$0)</transform-into>
+					<transform-into>(?1::(${1:[\\$comment_ID]}\)$0)</transform-into>
 				</append-dynamic>
 			</behavior>
 		</completion>
@@ -1119,7 +1119,7 @@
 			<behavior>
 				<append-dynamic>
 					<matched-suffix>(\s*\()|[^\(]</matched-suffix>
-					<transform-into>(?1::(${1:${2:[\\$comment_ID]}}\)$0)</transform-into>
+					<transform-into>(?1::(${1:[\\$comment_ID]}\)$0)</transform-into>
 				</append-dynamic>
 			</behavior>
 		</completion>
@@ -1128,7 +1128,7 @@
 			<behavior>
 				<append-dynamic>
 					<matched-suffix>(\s*\()|[^\(]</matched-suffix>
-					<transform-into>(?1::(${1:${2:[\\$comment_ID]}}\)$0)</transform-into>
+					<transform-into>(?1::(${1:[\\$comment_ID]}\)$0)</transform-into>
 				</append-dynamic>
 			</behavior>
 		</completion>
@@ -1160,7 +1160,7 @@
 			<behavior>
 				<append-dynamic>
 					<matched-suffix>(\s*\()|[^\(]</matched-suffix>
-					<transform-into>(?1::(${1:${2:[\\$comment_ID]}}\)$0)</transform-into>
+					<transform-into>(?1::(${1:[\\$comment_ID]}\)$0)</transform-into>
 				</append-dynamic>
 			</behavior>
 		</completion>
@@ -1200,7 +1200,7 @@
 			<behavior>
 				<append-dynamic>
 					<matched-suffix>(\s*\()|[^\(]</matched-suffix>
-					<transform-into>(?1::(${1:${2:[\\$comment_id]}}\)$0)</transform-into>
+					<transform-into>(?1::(${1:[\\$comment_id]}\)$0)</transform-into>
 				</append-dynamic>
 			</behavior>
 		</completion>
@@ -1209,7 +1209,7 @@
 			<behavior>
 				<append-dynamic>
 					<matched-suffix>(\s*\()|[^\(]</matched-suffix>
-					<transform-into>(?1::(${1:${2:[\\$id]}}\)$0)</transform-into>
+					<transform-into>(?1::(${1:[\\$id]}\)$0)</transform-into>
 				</append-dynamic>
 			</behavior>
 		</completion>
@@ -1235,7 +1235,7 @@
 			<behavior>
 				<append-dynamic>
 					<matched-suffix>(\s*\()|[^\(]</matched-suffix>
-					<transform-into>(?1::(${1:${2:[\\$d]}}\)$0)</transform-into>
+					<transform-into>(?1::(${1:[\\$d]}\)$0)</transform-into>
 				</append-dynamic>
 			</behavior>
 		</completion>
@@ -1268,7 +1268,7 @@
 			<behavior>
 				<append-dynamic>
 					<matched-suffix>(\s*\()|[^\(]</matched-suffix>
-					<transform-into>(?1::(${1:${2:[\\$post_id]}}\)$0)</transform-into>
+					<transform-into>(?1::(${1:[\\$post_id]}\)$0)</transform-into>
 				</append-dynamic>
 			</behavior>
 		</completion>
@@ -1326,7 +1326,7 @@
 			<behavior>
 				<append-dynamic>
 					<matched-suffix>(\s*\()|[^\(]</matched-suffix>
-					<transform-into>(?1::(${1:${2:[\\$path]}}\)$0)</transform-into>
+					<transform-into>(?1::(${1:[\\$path]}\)$0)</transform-into>
 				</append-dynamic>
 			</behavior>
 		</completion>
@@ -1384,7 +1384,7 @@
 			<behavior>
 				<append-dynamic>
 					<matched-suffix>(\s*\()|[^\(]</matched-suffix>
-					<transform-into>(?1::(${1:${2:[\\$strategy]}}\)$0)</transform-into>
+					<transform-into>(?1::(${1:[\\$strategy]}\)$0)</transform-into>
 				</append-dynamic>
 			</behavior>
 		</completion>
@@ -1741,7 +1741,7 @@
 			<behavior>
 				<append-dynamic>
 					<matched-suffix>(\s*\()|[^\(]</matched-suffix>
-					<transform-into>(?1::(${1:${2:[\\$action]}}\)$0)</transform-into>
+					<transform-into>(?1::(${1:[\\$action]}\)$0)</transform-into>
 				</append-dynamic>
 			</behavior>
 		</completion>
@@ -1749,7 +1749,7 @@
 			<behavior>
 				<append-dynamic>
 					<matched-suffix>(\s*\()|[^\(]</matched-suffix>
-					<transform-into>(?1::(${1:${2:[\\$filter]}}\)$0)</transform-into>
+					<transform-into>(?1::(${1:[\\$filter]}\)$0)</transform-into>
 				</append-dynamic>
 			</behavior>
 		</completion>
@@ -1781,7 +1781,7 @@
 			<behavior>
 				<append-dynamic>
 					<matched-suffix>(\s*\()|[^\(]</matched-suffix>
-					<transform-into>(?1::(${1:${2:[\\$index]}}\)$0)</transform-into>
+					<transform-into>(?1::(${1:[\\$index]}\)$0)</transform-into>
 				</append-dynamic>
 			</behavior>
 		</completion>
@@ -1807,7 +1807,7 @@
 			<behavior>
 				<append-dynamic>
 					<matched-suffix>(\s*\()|[^\(]</matched-suffix>
-					<transform-into>(?1::(${1:${2:[\\$link_id]}}\)$0)</transform-into>
+					<transform-into>(?1::(${1:[\\$link_id]}\)$0)</transform-into>
 				</append-dynamic>
 			</behavior>
 		</completion>
@@ -1815,7 +1815,7 @@
 			<behavior>
 				<append-dynamic>
 					<matched-suffix>(\s*\()|[^\(]</matched-suffix>
-					<transform-into>(?1::(${1:${2:[\\$post_data]}}\)$0)</transform-into>
+					<transform-into>(?1::(${1:[\\$post_data]}\)$0)</transform-into>
 				</append-dynamic>
 			</behavior>
 		</completion>
@@ -1847,7 +1847,7 @@
 			<behavior>
 				<append-dynamic>
 					<matched-suffix>(\s*\()|[^\(]</matched-suffix>
-					<transform-into>(?1::(${1:${2:[\\$user_id]}}\)$0)</transform-into>
+					<transform-into>(?1::(${1:[\\$user_id]}\)$0)</transform-into>
 				</append-dynamic>
 			</behavior>
 		</completion>
@@ -1977,7 +1977,7 @@
 			<behavior>
 				<append-dynamic>
 					<matched-suffix>(\s*\()|[^\(]</matched-suffix>
-					<transform-into>(?1::(${1:${2:[\\$post_type]}}\)$0)</transform-into>
+					<transform-into>(?1::(${1:[\\$post_type]}\)$0)</transform-into>
 				</append-dynamic>
 			</behavior>
 		</completion>
@@ -1985,7 +1985,7 @@
 			<behavior>
 				<append-dynamic>
 					<matched-suffix>(\s*\()|[^\(]</matched-suffix>
-					<transform-into>(?1::(${1:${2:[\\$args]}}\)$0)</transform-into>
+					<transform-into>(?1::(${1:[\\$args]}\)$0)</transform-into>
 				</append-dynamic>
 			</behavior>
 		</completion>
@@ -2002,7 +2002,7 @@
 			<behavior>
 				<append-dynamic>
 					<matched-suffix>(\s*\()|[^\(]</matched-suffix>
-					<transform-into>(?1::(${1:${2:[\\$args]}}\)$0)</transform-into>
+					<transform-into>(?1::(${1:[\\$args]}\)$0)</transform-into>
 				</append-dynamic>
 			</behavior>
 		</completion>
@@ -2010,7 +2010,7 @@
 			<behavior>
 				<append-dynamic>
 					<matched-suffix>(\s*\()|[^\(]</matched-suffix>
-					<transform-into>(?1::(${1:${2:[\\$args]}}\)$0)</transform-into>
+					<transform-into>(?1::(${1:[\\$args]}\)$0)</transform-into>
 				</append-dynamic>
 			</behavior>
 		</completion>
@@ -2052,7 +2052,7 @@
 			<behavior>
 				<append-dynamic>
 					<matched-suffix>(\s*\()|[^\(]</matched-suffix>
-					<transform-into>(?1::(${1:${2:[\\$found_action]}}\)$0)</transform-into>
+					<transform-into>(?1::(${1:[\\$found_action]}\)$0)</transform-into>
 				</append-dynamic>
 			</behavior>
 		</completion>
@@ -2077,7 +2077,7 @@
 			<behavior>
 				<append-dynamic>
 					<matched-suffix>(\s*\()|[^\(]</matched-suffix>
-					<transform-into>(?1::(${1:${2:[\\$hard]}}\)$0)</transform-into>
+					<transform-into>(?1::(${1:[\\$hard]}\)$0)</transform-into>
 				</append-dynamic>
 			</behavior>
 		</completion>
@@ -2093,7 +2093,7 @@
 			<behavior>
 				<append-dynamic>
 					<matched-suffix>(\s*\()|[^\(]</matched-suffix>
-					<transform-into>(?1::(${1:${2:[\\$force]}}\)$0)</transform-into>
+					<transform-into>(?1::(${1:[\\$force]}\)$0)</transform-into>
 				</append-dynamic>
 			</behavior>
 		</completion>
@@ -2101,7 +2101,7 @@
 			<behavior>
 				<append-dynamic>
 					<matched-suffix>(\s*\()|[^\(]</matched-suffix>
-					<transform-into>(?1::(${1:${2:[\\$force]}}\)$0)</transform-into>
+					<transform-into>(?1::(${1:[\\$force]}\)$0)</transform-into>
 				</append-dynamic>
 			</behavior>
 		</completion>
@@ -2109,7 +2109,7 @@
 			<behavior>
 				<append-dynamic>
 					<matched-suffix>(\s*\()|[^\(]</matched-suffix>
-					<transform-into>(?1::(${1:${2:[\\$force]}}\)$0)</transform-into>
+					<transform-into>(?1::(${1:[\\$force]}\)$0)</transform-into>
 				</append-dynamic>
 			</behavior>
 		</completion>
@@ -2142,7 +2142,7 @@
 			<behavior>
 				<append-dynamic>
 					<matched-suffix>(\s*\()|[^\(]</matched-suffix>
-					<transform-into>(?1::(${1:${2:[\\$post_id]}}\)$0)</transform-into>
+					<transform-into>(?1::(${1:[\\$post_id]}\)$0)</transform-into>
 				</append-dynamic>
 			</behavior>
 		</completion>
@@ -2213,7 +2213,7 @@
 			<behavior>
 				<append-dynamic>
 					<matched-suffix>(\s*\()|[^\(]</matched-suffix>
-					<transform-into>(?1::(${1:${2:[\\$user]}}\)$0)</transform-into>
+					<transform-into>(?1::(${1:[\\$user]}\)$0)</transform-into>
 				</append-dynamic>
 			</behavior>
 		</completion>
@@ -2297,7 +2297,7 @@
 			<behavior>
 				<append-dynamic>
 					<matched-suffix>(\s*\()|[^\(]</matched-suffix>
-					<transform-into>(?1::(${1:${2:[\\$dir]}}\)$0)</transform-into>
+					<transform-into>(?1::(${1:[\\$dir]}\)$0)</transform-into>
 				</append-dynamic>
 			</behavior>
 		</completion>
@@ -2305,7 +2305,7 @@
 			<behavior>
 				<append-dynamic>
 					<matched-suffix>(\s*\()|[^\(]</matched-suffix>
-					<transform-into>(?1::(${1:${2:[\\$type]}}\)$0)</transform-into>
+					<transform-into>(?1::(${1:[\\$type]}\)$0)</transform-into>
 				</append-dynamic>
 			</behavior>
 		</completion>
@@ -2313,7 +2313,7 @@
 			<behavior>
 				<append-dynamic>
 					<matched-suffix>(\s*\()|[^\(]</matched-suffix>
-					<transform-into>(?1::(${1:${2:[\\$type]}}\)$0)</transform-into>
+					<transform-into>(?1::(${1:[\\$type]}\)$0)</transform-into>
 				</append-dynamic>
 			</behavior>
 		</completion>
@@ -2331,7 +2331,7 @@
 			<behavior>
 				<append-dynamic>
 					<matched-suffix>(\s*\()|[^\(]</matched-suffix>
-					<transform-into>(?1::(${1:${2:[\\$network_id]}}\)$0)</transform-into>
+					<transform-into>(?1::(${1:[\\$network_id]}\)$0)</transform-into>
 				</append-dynamic>
 			</behavior>
 		</completion>
@@ -2411,7 +2411,7 @@
 			<behavior>
 				<append-dynamic>
 					<matched-suffix>(\s*\()|[^\(]</matched-suffix>
-					<transform-into>(?1::(${1:${2:[\\$show]}}\)$0)</transform-into>
+					<transform-into>(?1::(${1:[\\$show]}\)$0)</transform-into>
 				</append-dynamic>
 			</behavior>
 		</completion>
@@ -2427,7 +2427,7 @@
 			<behavior>
 				<append-dynamic>
 					<matched-suffix>(\s*\()|[^\(]</matched-suffix>
-					<transform-into>(?1::(${1:${2:[\\$class]}}\)$0)</transform-into>
+					<transform-into>(?1::(${1:[\\$class]}\)$0)</transform-into>
 				</append-dynamic>
 			</behavior>
 		</completion>
@@ -2451,7 +2451,7 @@
 			<behavior>
 				<append-dynamic>
 					<matched-suffix>(\s*\()|[^\(]</matched-suffix>
-					<transform-into>(?1::(${1:${2:[\\$args]}}\)$0)</transform-into>
+					<transform-into>(?1::(${1:[\\$args]}\)$0)</transform-into>
 				</append-dynamic>
 			</behavior>
 		</completion>
@@ -2475,7 +2475,7 @@
 			<behavior>
 				<append-dynamic>
 					<matched-suffix>(\s*\()|[^\(]</matched-suffix>
-					<transform-into>(?1::(${1:${2:[\\$text]}}\)$0)</transform-into>
+					<transform-into>(?1::(${1:[\\$text]}\)$0)</transform-into>
 				</append-dynamic>
 			</behavior>
 		</completion>
@@ -2499,7 +2499,7 @@
 			<behavior>
 				<append-dynamic>
 					<matched-suffix>(\s*\()|[^\(]</matched-suffix>
-					<transform-into>(?1::(${1:${2:[\\$args]}}\)$0)</transform-into>
+					<transform-into>(?1::(${1:[\\$args]}\)$0)</transform-into>
 				</append-dynamic>
 			</behavior>
 		</completion>
@@ -2597,7 +2597,7 @@
 			<behavior>
 				<append-dynamic>
 					<matched-suffix>(\s*\()|[^\(]</matched-suffix>
-					<transform-into>(?1::(${1:${2:[\\$comment_ID]}}\)$0)</transform-into>
+					<transform-into>(?1::(${1:[\\$comment_ID]}\)$0)</transform-into>
 				</append-dynamic>
 			</behavior>
 		</completion>
@@ -2605,7 +2605,7 @@
 			<behavior>
 				<append-dynamic>
 					<matched-suffix>(\s*\()|[^\(]</matched-suffix>
-					<transform-into>(?1::(${1:${2:[\\$comment_ID]}}\)$0)</transform-into>
+					<transform-into>(?1::(${1:[\\$comment_ID]}\)$0)</transform-into>
 				</append-dynamic>
 			</behavior>
 		</completion>
@@ -2621,7 +2621,7 @@
 			<behavior>
 				<append-dynamic>
 					<matched-suffix>(\s*\()|[^\(]</matched-suffix>
-					<transform-into>(?1::(${1:${2:[\\$comment_ID]}}\)$0)</transform-into>
+					<transform-into>(?1::(${1:[\\$comment_ID]}\)$0)</transform-into>
 				</append-dynamic>
 			</behavior>
 		</completion>
@@ -2629,7 +2629,7 @@
 			<behavior>
 				<append-dynamic>
 					<matched-suffix>(\s*\()|[^\(]</matched-suffix>
-					<transform-into>(?1::(${1:${2:[\\$comment_ID]}}\)$0)</transform-into>
+					<transform-into>(?1::(${1:[\\$comment_ID]}\)$0)</transform-into>
 				</append-dynamic>
 			</behavior>
 		</completion>
@@ -2638,7 +2638,7 @@
 			<behavior>
 				<append-dynamic>
 					<matched-suffix>(\s*\()|[^\(]</matched-suffix>
-					<transform-into>(?1::(${1:${2:[\\$comment_ID]}}\)$0)</transform-into>
+					<transform-into>(?1::(${1:[\\$comment_ID]}\)$0)</transform-into>
 				</append-dynamic>
 			</behavior>
 		</completion>
@@ -2662,7 +2662,7 @@
 			<behavior>
 				<append-dynamic>
 					<matched-suffix>(\s*\()|[^\(]</matched-suffix>
-					<transform-into>(?1::(${1:${2:[\\$post_id]}}\)$0)</transform-into>
+					<transform-into>(?1::(${1:[\\$post_id]}\)$0)</transform-into>
 				</append-dynamic>
 			</behavior>
 		</completion>
@@ -2678,7 +2678,7 @@
 			<behavior>
 				<append-dynamic>
 					<matched-suffix>(\s*\()|[^\(]</matched-suffix>
-					<transform-into>(?1::(${1:${2:[\\$comment_ID]}}\)$0)</transform-into>
+					<transform-into>(?1::(${1:[\\$comment_ID]}\)$0)</transform-into>
 				</append-dynamic>
 			</behavior>
 		</completion>
@@ -2686,7 +2686,7 @@
 			<behavior>
 				<append-dynamic>
 					<matched-suffix>(\s*\()|[^\(]</matched-suffix>
-					<transform-into>(?1::(${1:${2:[\\$comment_id]}}\)$0)</transform-into>
+					<transform-into>(?1::(${1:[\\$comment_id]}\)$0)</transform-into>
 				</append-dynamic>
 			</behavior>
 		</completion>
@@ -2695,7 +2695,7 @@
 			<behavior>
 				<append-dynamic>
 					<matched-suffix>(\s*\()|[^\(]</matched-suffix>
-					<transform-into>(?1::(${1:${2:[\\$id]}}\)$0)</transform-into>
+					<transform-into>(?1::(${1:[\\$id]}\)$0)</transform-into>
 				</append-dynamic>
 			</behavior>
 		</completion>
@@ -2760,7 +2760,7 @@
 			<behavior>
 				<append-dynamic>
 					<matched-suffix>(\s*\()|[^\(]</matched-suffix>
-					<transform-into>(?1::(${1:${2:[\\$comment_ID]}}\)$0)</transform-into>
+					<transform-into>(?1::(${1:[\\$comment_ID]}\)$0)</transform-into>
 				</append-dynamic>
 			</behavior>
 		</completion>
@@ -2768,7 +2768,7 @@
 			<behavior>
 				<append-dynamic>
 					<matched-suffix>(\s*\()|[^\(]</matched-suffix>
-					<transform-into>(?1::(${1:${2:[\\$args]}}\)$0)</transform-into>
+					<transform-into>(?1::(${1:[\\$args]}\)$0)</transform-into>
 				</append-dynamic>
 			</behavior>
 		</completion>
@@ -2776,7 +2776,7 @@
 			<behavior>
 				<append-dynamic>
 					<matched-suffix>(\s*\()|[^\(]</matched-suffix>
-					<transform-into>(?1::(${1:${2:[\\$post_id]}}\)$0)</transform-into>
+					<transform-into>(?1::(${1:[\\$post_id]}\)$0)</transform-into>
 				</append-dynamic>
 			</behavior>
 		</completion>
@@ -2784,7 +2784,7 @@
 			<behavior>
 				<append-dynamic>
 					<matched-suffix>(\s*\()|[^\(]</matched-suffix>
-					<transform-into>(?1::(${1:${2:[\\$post_id]}}\)$0)</transform-into>
+					<transform-into>(?1::(${1:[\\$post_id]}\)$0)</transform-into>
 				</append-dynamic>
 			</behavior>
 		</completion>
@@ -2792,7 +2792,7 @@
 			<behavior>
 				<append-dynamic>
 					<matched-suffix>(\s*\()|[^\(]</matched-suffix>
-					<transform-into>(?1::(${1:${2:[\\$pagenum]}}\)$0)</transform-into>
+					<transform-into>(?1::(${1:[\\$pagenum]}\)$0)</transform-into>
 				</append-dynamic>
 			</behavior>
 		</completion>
@@ -2810,7 +2810,7 @@
 			<behavior>
 				<append-dynamic>
 					<matched-suffix>(\s*\()|[^\(]</matched-suffix>
-					<transform-into>(?1::(${1:${2:[\\$options]}}\)$0)</transform-into>
+					<transform-into>(?1::(${1:[\\$options]}\)$0)</transform-into>
 				</append-dynamic>
 			</behavior>
 		</completion>
@@ -2851,7 +2851,7 @@
 			<behavior>
 				<append-dynamic>
 					<matched-suffix>(\s*\()|[^\(]</matched-suffix>
-					<transform-into>(?1::(${1:${2:[\\$post_type]}}\)$0)</transform-into>
+					<transform-into>(?1::(${1:[\\$post_type]}\)$0)</transform-into>
 				</append-dynamic>
 			</behavior>
 		</completion>
@@ -2876,7 +2876,7 @@
 			<behavior>
 				<append-dynamic>
 					<matched-suffix>(\s*\()|[^\(]</matched-suffix>
-					<transform-into>(?1::(${1:${2:[\\$link]}}\)$0)</transform-into>
+					<transform-into>(?1::(${1:[\\$link]}\)$0)</transform-into>
 				</append-dynamic>
 			</behavior>
 		</completion>
@@ -2884,7 +2884,7 @@
 			<behavior>
 				<append-dynamic>
 					<matched-suffix>(\s*\()|[^\(]</matched-suffix>
-					<transform-into>(?1::(${1:${2:[\\$comment_id]}}\)$0)</transform-into>
+					<transform-into>(?1::(${1:[\\$comment_id]}\)$0)</transform-into>
 				</append-dynamic>
 			</behavior>
 		</completion>
@@ -2924,7 +2924,7 @@
 			<behavior>
 				<append-dynamic>
 					<matched-suffix>(\s*\()|[^\(]</matched-suffix>
-					<transform-into>(?1::(${1:${2:[\\$user_id]}}\)$0)</transform-into>
+					<transform-into>(?1::(${1:[\\$user_id]}\)$0)</transform-into>
 				</append-dynamic>
 			</behavior>
 		</completion>
@@ -2949,7 +2949,7 @@
 			<behavior>
 				<append-dynamic>
 					<matched-suffix>(\s*\()|[^\(]</matched-suffix>
-					<transform-into>(?1::(${1:${2:[\\$feed]}}\)$0)</transform-into>
+					<transform-into>(?1::(${1:[\\$feed]}\)$0)</transform-into>
 				</append-dynamic>
 			</behavior>
 		</completion>
@@ -2981,7 +2981,7 @@
 			<behavior>
 				<append-dynamic>
 					<matched-suffix>(\s*\()|[^\(]</matched-suffix>
-					<transform-into>(?1::(${1:${2:[\\$name]}}\)$0)</transform-into>
+					<transform-into>(?1::(${1:[\\$name]}\)$0)</transform-into>
 				</append-dynamic>
 			</behavior>
 		</completion>
@@ -2998,7 +2998,7 @@
 			<behavior>
 				<append-dynamic>
 					<matched-suffix>(\s*\()|[^\(]</matched-suffix>
-					<transform-into>(?1::(${1:${2:[\\$name]}}\)$0)</transform-into>
+					<transform-into>(?1::(${1:[\\$name]}\)$0)</transform-into>
 				</append-dynamic>
 			</behavior>
 		</completion>
@@ -3086,7 +3086,7 @@
 			<behavior>
 				<append-dynamic>
 					<matched-suffix>(\s*\()|[^\(]</matched-suffix>
-					<transform-into>(?1::(${1:${2:[\\$timezone]}}\)$0)</transform-into>
+					<transform-into>(?1::(${1:[\\$timezone]}\)$0)</transform-into>
 				</append-dynamic>
 			</behavior>
 		</completion>
@@ -3094,7 +3094,7 @@
 			<behavior>
 				<append-dynamic>
 					<matched-suffix>(\s*\()|[^\(]</matched-suffix>
-					<transform-into>(?1::(${1:${2:[\\$timezone]}}\)$0)</transform-into>
+					<transform-into>(?1::(${1:[\\$timezone]}\)$0)</transform-into>
 				</append-dynamic>
 			</behavior>
 		</completion>
@@ -3102,7 +3102,7 @@
 			<behavior>
 				<append-dynamic>
 					<matched-suffix>(\s*\()|[^\(]</matched-suffix>
-					<transform-into>(?1::(${1:${2:[\\$timezone]}}\)$0)</transform-into>
+					<transform-into>(?1::(${1:[\\$timezone]}\)$0)</transform-into>
 				</append-dynamic>
 			</behavior>
 		</completion>
@@ -3227,7 +3227,7 @@
 			<behavior>
 				<append-dynamic>
 					<matched-suffix>(\s*\()|[^\(]</matched-suffix>
-					<transform-into>(?1::(${1:${2:[\\$max_page]}}\)$0)</transform-into>
+					<transform-into>(?1::(${1:[\\$max_page]}\)$0)</transform-into>
 				</append-dynamic>
 			</behavior>
 		</completion>
@@ -3318,7 +3318,7 @@
 			<behavior>
 				<append-dynamic>
 					<matched-suffix>(\s*\()|[^\(]</matched-suffix>
-					<transform-into>(?1::(${1:${2:[\\$post_id]}}\)$0)</transform-into>
+					<transform-into>(?1::(${1:[\\$post_id]}\)$0)</transform-into>
 				</append-dynamic>
 			</behavior>
 		</completion>
@@ -3326,7 +3326,7 @@
 			<behavior>
 				<append-dynamic>
 					<matched-suffix>(\s*\()|[^\(]</matched-suffix>
-					<transform-into>(?1::(${1:${2:[\\$post]}}\)$0)</transform-into>
+					<transform-into>(?1::(${1:[\\$post]}\)$0)</transform-into>
 				</append-dynamic>
 			</behavior>
 		</completion>
@@ -3351,7 +3351,7 @@
 			<behavior>
 				<append-dynamic>
 					<matched-suffix>(\s*\()|[^\(]</matched-suffix>
-					<transform-into>(?1::(${1:${2:[\\$args]}}\)$0)</transform-into>
+					<transform-into>(?1::(${1:[\\$args]}\)$0)</transform-into>
 				</append-dynamic>
 			</behavior>
 		</completion>
@@ -3394,7 +3394,7 @@
 			<behavior>
 				<append-dynamic>
 					<matched-suffix>(\s*\()|[^\(]</matched-suffix>
-					<transform-into>(?1::(${1:${2:[\\$plugin_folder]}}\)$0)</transform-into>
+					<transform-into>(?1::(${1:[\\$plugin_folder]}\)$0)</transform-into>
 				</append-dynamic>
 			</behavior>
 		</completion>
@@ -3434,7 +3434,7 @@
 			<behavior>
 				<append-dynamic>
 					<matched-suffix>(\s*\()|[^\(]</matched-suffix>
-					<transform-into>(?1::(${1:${2:[\\$post_id]}}\)$0)</transform-into>
+					<transform-into>(?1::(${1:[\\$post_id]}\)$0)</transform-into>
 				</append-dynamic>
 			</behavior>
 		</completion>
@@ -3442,7 +3442,7 @@
 			<behavior>
 				<append-dynamic>
 					<matched-suffix>(\s*\()|[^\(]</matched-suffix>
-					<transform-into>(?1::(${1:${2:[\\$post_id]}}\)$0)</transform-into>
+					<transform-into>(?1::(${1:[\\$post_id]}\)$0)</transform-into>
 				</append-dynamic>
 			</behavior>
 		</completion>
@@ -3466,7 +3466,7 @@
 			<behavior>
 				<append-dynamic>
 					<matched-suffix>(\s*\()|[^\(]</matched-suffix>
-					<transform-into>(?1::(${1:${2:[\\$post]}}\)$0)</transform-into>
+					<transform-into>(?1::(${1:[\\$post]}\)$0)</transform-into>
 				</append-dynamic>
 			</behavior>
 		</completion>
@@ -3500,7 +3500,7 @@
 			<behavior>
 				<append-dynamic>
 					<matched-suffix>(\s*\()|[^\(]</matched-suffix>
-					<transform-into>(?1::(${1:${2:[\\$post]}}\)$0)</transform-into>
+					<transform-into>(?1::(${1:[\\$post]}\)$0)</transform-into>
 				</append-dynamic>
 			</behavior>
 		</completion>
@@ -3516,7 +3516,7 @@
 			<behavior>
 				<append-dynamic>
 					<matched-suffix>(\s*\()|[^\(]</matched-suffix>
-					<transform-into>(?1::(${1:${2:[\\$post]}}\)$0)</transform-into>
+					<transform-into>(?1::(${1:[\\$post]}\)$0)</transform-into>
 				</append-dynamic>
 			</behavior>
 		</completion>
@@ -3540,7 +3540,7 @@
 			<behavior>
 				<append-dynamic>
 					<matched-suffix>(\s*\()|[^\(]</matched-suffix>
-					<transform-into>(?1::(${1:${2:[\\$ID]}}\)$0)</transform-into>
+					<transform-into>(?1::(${1:[\\$ID]}\)$0)</transform-into>
 				</append-dynamic>
 			</behavior>
 		</completion>
@@ -3581,7 +3581,7 @@
 			<behavior>
 				<append-dynamic>
 					<matched-suffix>(\s*\()|[^\(]</matched-suffix>
-					<transform-into>(?1::(${1:${2:[\\$ID]}}\)$0)</transform-into>
+					<transform-into>(?1::(${1:[\\$ID]}\)$0)</transform-into>
 				</append-dynamic>
 			</behavior>
 		</completion>
@@ -3598,7 +3598,7 @@
 			<behavior>
 				<append-dynamic>
 					<matched-suffix>(\s*\()|[^\(]</matched-suffix>
-					<transform-into>(?1::(${1:${2:[\\$post]}}\)$0)</transform-into>
+					<transform-into>(?1::(${1:[\\$post]}\)$0)</transform-into>
 				</append-dynamic>
 			</behavior>
 		</completion>
@@ -3606,7 +3606,7 @@
 			<behavior>
 				<append-dynamic>
 					<matched-suffix>(\s*\()|[^\(]</matched-suffix>
-					<transform-into>(?1::(${1:${2:[\\$post_id]}}\)$0)</transform-into>
+					<transform-into>(?1::(${1:[\\$post_id]}\)$0)</transform-into>
 				</append-dynamic>
 			</behavior>
 		</completion>
@@ -3622,7 +3622,7 @@
 			<behavior>
 				<append-dynamic>
 					<matched-suffix>(\s*\()|[^\(]</matched-suffix>
-					<transform-into>(?1::(${1:${2:[\\$post]}}\)$0)</transform-into>
+					<transform-into>(?1::(${1:[\\$post]}\)$0)</transform-into>
 				</append-dynamic>
 			</behavior>
 		</completion>
@@ -3671,7 +3671,7 @@
 			<behavior>
 				<append-dynamic>
 					<matched-suffix>(\s*\()|[^\(]</matched-suffix>
-					<transform-into>(?1::(${1:${2:[\\$args]}}\)$0)</transform-into>
+					<transform-into>(?1::(${1:[\\$args]}\)$0)</transform-into>
 				</append-dynamic>
 			</behavior>
 		</completion>
@@ -3687,7 +3687,7 @@
 			<behavior>
 				<append-dynamic>
 					<matched-suffix>(\s*\()|[^\(]</matched-suffix>
-					<transform-into>(?1::(${1:${2:[\\$args]}}\)$0)</transform-into>
+					<transform-into>(?1::(${1:[\\$args]}\)$0)</transform-into>
 				</append-dynamic>
 			</behavior>
 		</completion>
@@ -3696,7 +3696,7 @@
 			<behavior>
 				<append-dynamic>
 					<matched-suffix>(\s*\()|[^\(]</matched-suffix>
-					<transform-into>(?1::(${1:${2:[\\$label]}}\)$0)</transform-into>
+					<transform-into>(?1::(${1:[\\$label]}\)$0)</transform-into>
 				</append-dynamic>
 			</behavior>
 		</completion>
@@ -3713,7 +3713,7 @@
 			<behavior>
 				<append-dynamic>
 					<matched-suffix>(\s*\()|[^\(]</matched-suffix>
-					<transform-into>(?1::(${1:${2:[\\$label]}}\)$0)</transform-into>
+					<transform-into>(?1::(${1:[\\$label]}\)$0)</transform-into>
 				</append-dynamic>
 			</behavior>
 		</completion>
@@ -3807,7 +3807,7 @@
 			<behavior>
 				<append-dynamic>
 					<matched-suffix>(\s*\()|[^\(]</matched-suffix>
-					<transform-into>(?1::(${1:${2:[\\$echo]}}\)$0)</transform-into>
+					<transform-into>(?1::(${1:[\\$echo]}\)$0)</transform-into>
 				</append-dynamic>
 			</behavior>
 		</completion>
@@ -3815,7 +3815,7 @@
 			<behavior>
 				<append-dynamic>
 					<matched-suffix>(\s*\()|[^\(]</matched-suffix>
-					<transform-into>(?1::(${1:${2:[\\$query]}}\)$0)</transform-into>
+					<transform-into>(?1::(${1:[\\$query]}\)$0)</transform-into>
 				</append-dynamic>
 			</behavior>
 		</completion>
@@ -3823,7 +3823,7 @@
 			<behavior>
 				<append-dynamic>
 					<matched-suffix>(\s*\()|[^\(]</matched-suffix>
-					<transform-into>(?1::(${1:${2:[\\$escaped]}}\)$0)</transform-into>
+					<transform-into>(?1::(${1:[\\$escaped]}\)$0)</transform-into>
 				</append-dynamic>
 			</behavior>
 		</completion>
@@ -3842,7 +3842,7 @@
 			<behavior>
 				<append-dynamic>
 					<matched-suffix>(\s*\()|[^\(]</matched-suffix>
-					<transform-into>(?1::(${1:${2:[\\$name]}}\)$0)</transform-into>
+					<transform-into>(?1::(${1:[\\$name]}\)$0)</transform-into>
 				</append-dynamic>
 			</behavior>
 		</completion>
@@ -3941,7 +3941,7 @@
 			<behavior>
 				<append-dynamic>
 					<matched-suffix>(\s*\()|[^\(]</matched-suffix>
-					<transform-into>(?1::(${1:${2:[\\$args]}}\)$0)</transform-into>
+					<transform-into>(?1::(${1:[\\$args]}\)$0)</transform-into>
 				</append-dynamic>
 			</behavior>
 		</completion>
@@ -3973,7 +3973,7 @@
 			<behavior>
 				<append-dynamic>
 					<matched-suffix>(\s*\()|[^\(]</matched-suffix>
-					<transform-into>(?1::(${1:${2:[\\$output]}}\)$0)</transform-into>
+					<transform-into>(?1::(${1:[\\$output]}\)$0)</transform-into>
 				</append-dynamic>
 			</behavior>
 		</completion>
@@ -4082,7 +4082,7 @@
 			<behavior>
 				<append-dynamic>
 					<matched-suffix>(\s*\()|[^\(]</matched-suffix>
-					<transform-into>(?1::(${1:${2:[\\$deprecated]}}\)$0)</transform-into>
+					<transform-into>(?1::(${1:[\\$deprecated]}\)$0)</transform-into>
 				</append-dynamic>
 			</behavior>
 		</completion>
@@ -4100,7 +4100,7 @@
 			<behavior>
 				<append-dynamic>
 					<matched-suffix>(\s*\()|[^\(]</matched-suffix>
-					<transform-into>(?1::(${1:${2:[\\$id]}}\)$0)</transform-into>
+					<transform-into>(?1::(${1:[\\$id]}\)$0)</transform-into>
 				</append-dynamic>
 			</behavior>
 		</completion>
@@ -4124,7 +4124,7 @@
 			<behavior>
 				<append-dynamic>
 					<matched-suffix>(\s*\()|[^\(]</matched-suffix>
-					<transform-into>(?1::(${1:${2:[\\$type]}}\)$0)</transform-into>
+					<transform-into>(?1::(${1:[\\$type]}\)$0)</transform-into>
 				</append-dynamic>
 			</behavior>
 		</completion>
@@ -4140,7 +4140,7 @@
 			<behavior>
 				<append-dynamic>
 					<matched-suffix>(\s*\()|[^\(]</matched-suffix>
-					<transform-into>(?1::(${1:${2:[\\$feed_type]}}\)$0)</transform-into>
+					<transform-into>(?1::(${1:[\\$feed_type]}\)$0)</transform-into>
 				</append-dynamic>
 			</behavior>
 		</completion>
@@ -4156,7 +4156,7 @@
 			<behavior>
 				<append-dynamic>
 					<matched-suffix>(\s*\()|[^\(]</matched-suffix>
-					<transform-into>(?1::(${1:${2:[\\$deprecated]}}\)$0)</transform-into>
+					<transform-into>(?1::(${1:[\\$deprecated]}\)$0)</transform-into>
 				</append-dynamic>
 			</behavior>
 		</completion>
@@ -4164,7 +4164,7 @@
 			<behavior>
 				<append-dynamic>
 					<matched-suffix>(\s*\()|[^\(]</matched-suffix>
-					<transform-into>(?1::(${1:${2:[\\$type]}}\)$0)</transform-into>
+					<transform-into>(?1::(${1:[\\$type]}\)$0)</transform-into>
 				</append-dynamic>
 			</behavior>
 		</completion>
@@ -4172,7 +4172,7 @@
 			<behavior>
 				<append-dynamic>
 					<matched-suffix>(\s*\()|[^\(]</matched-suffix>
-					<transform-into>(?1::(${1:${2:[\\$id]}}\)$0)</transform-into>
+					<transform-into>(?1::(${1:[\\$id]}\)$0)</transform-into>
 				</append-dynamic>
 			</behavior>
 		</completion>
@@ -4182,7 +4182,7 @@
 			<behavior>
 				<append-dynamic>
 					<matched-suffix>(\s*\()|[^\(]</matched-suffix>
-					<transform-into>(?1::(${1:${2:[\\$d]}}\)$0)</transform-into>
+					<transform-into>(?1::(${1:[\\$d]}\)$0)</transform-into>
 				</append-dynamic>
 			</behavior>
 		</completion>
@@ -4190,7 +4190,7 @@
 			<behavior>
 				<append-dynamic>
 					<matched-suffix>(\s*\()|[^\(]</matched-suffix>
-					<transform-into>(?1::(${1:${2:[\\$d]}}\)$0)</transform-into>
+					<transform-into>(?1::(${1:[\\$d]}\)$0)</transform-into>
 				</append-dynamic>
 			</behavior>
 		</completion>
@@ -4198,7 +4198,7 @@
 			<behavior>
 				<append-dynamic>
 					<matched-suffix>(\s*\()|[^\(]</matched-suffix>
-					<transform-into>(?1::(${1:${2:[\\$post]}}\)$0)</transform-into>
+					<transform-into>(?1::(${1:[\\$post]}\)$0)</transform-into>
 				</append-dynamic>
 			</behavior>
 		</completion>
@@ -4230,7 +4230,7 @@
 			<behavior>
 				<append-dynamic>
 					<matched-suffix>(\s*\()|[^\(]</matched-suffix>
-					<transform-into>(?1::(${1:${2:[\\$id]}}\)$0)</transform-into>
+					<transform-into>(?1::(${1:[\\$id]}\)$0)</transform-into>
 				</append-dynamic>
 			</behavior>
 		</completion>
@@ -4270,7 +4270,7 @@
 			<behavior>
 				<append-dynamic>
 					<matched-suffix>(\s*\()|[^\(]</matched-suffix>
-					<transform-into>(?1::(${1:${2:[\\$post]}}\)$0)</transform-into>
+					<transform-into>(?1::(${1:[\\$post]}\)$0)</transform-into>
 				</append-dynamic>
 			</behavior>
 		</completion>
@@ -4279,7 +4279,7 @@
 			<behavior>
 				<append-dynamic>
 					<matched-suffix>(\s*\()|[^\(]</matched-suffix>
-					<transform-into>(?1::(${1:${2:[\\$api]}}\)$0)</transform-into>
+					<transform-into>(?1::(${1:[\\$api]}\)$0)</transform-into>
 				</append-dynamic>
 			</behavior>
 		</completion>
@@ -4296,7 +4296,7 @@
 			<behavior>
 				<append-dynamic>
 					<matched-suffix>(\s*\()|[^\(]</matched-suffix>
-					<transform-into>(?1::(${1:${2:[\\$stylesheet_or_template]}}\)$0)</transform-into>
+					<transform-into>(?1::(${1:[\\$stylesheet_or_template]}\)$0)</transform-into>
 				</append-dynamic>
 			</behavior>
 		</completion>
@@ -4415,7 +4415,7 @@
 			<behavior>
 				<append-dynamic>
 					<matched-suffix>(\s*\()|[^\(]</matched-suffix>
-					<transform-into>(?1::(${1:${2:[\\$args]}}\)$0)</transform-into>
+					<transform-into>(?1::(${1:[\\$args]}\)$0)</transform-into>
 				</append-dynamic>
 			</behavior>
 		</completion>
@@ -4439,7 +4439,7 @@
 			<behavior>
 				<append-dynamic>
 					<matched-suffix>(\s*\()|[^\(]</matched-suffix>
-					<transform-into>(?1::(${1:${2:[\\$sep]}}\)$0)</transform-into>
+					<transform-into>(?1::(${1:[\\$sep]}\)$0)</transform-into>
 				</append-dynamic>
 			</behavior>
 		</completion>
@@ -4490,7 +4490,7 @@
 			<behavior>
 				<append-dynamic>
 					<matched-suffix>(\s*\()|[^\(]</matched-suffix>
-					<transform-into>(?1::(${1:${2:[\\$id]}}\)$0)</transform-into>
+					<transform-into>(?1::(${1:[\\$id]}\)$0)</transform-into>
 				</append-dynamic>
 			</behavior>
 		</completion>
@@ -4538,7 +4538,7 @@
 			<behavior>
 				<append-dynamic>
 					<matched-suffix>(\s*\()|[^\(]</matched-suffix>
-					<transform-into>(?1::(${1:${2:[\\$post_id]}}\)$0)</transform-into>
+					<transform-into>(?1::(${1:[\\$post_id]}\)$0)</transform-into>
 				</append-dynamic>
 			</behavior>
 		</completion>
@@ -4811,7 +4811,7 @@
 			<behavior>
 				<append-dynamic>
 					<matched-suffix>(\s*\()|[^\(]</matched-suffix>
-					<transform-into>(?1::(${1:${2:[\\$page]}}\)$0)</transform-into>
+					<transform-into>(?1::(${1:[\\$page]}\)$0)</transform-into>
 				</append-dynamic>
 			</behavior>
 		</completion>
@@ -4819,7 +4819,7 @@
 			<behavior>
 				<append-dynamic>
 					<matched-suffix>(\s*\()|[^\(]</matched-suffix>
-					<transform-into>(?1::(${1:${2:[\\$args]}}\)$0)</transform-into>
+					<transform-into>(?1::(${1:[\\$args]}\)$0)</transform-into>
 				</append-dynamic>
 			</behavior>
 		</completion>
@@ -4851,7 +4851,7 @@
 			<behavior>
 				<append-dynamic>
 					<matched-suffix>(\s*\()|[^\(]</matched-suffix>
-					<transform-into>(?1::(${1:${2:[\\$origin]}}\)$0)</transform-into>
+					<transform-into>(?1::(${1:[\\$origin]}\)$0)</transform-into>
 				</append-dynamic>
 			</behavior>
 		</completion>
@@ -4868,7 +4868,7 @@
 			<behavior>
 				<append-dynamic>
 					<matched-suffix>(\s*\()|[^\(]</matched-suffix>
-					<transform-into>(?1::(${1:${2:[\\$attachment]}}\)$0)</transform-into>
+					<transform-into>(?1::(${1:[\\$attachment]}\)$0)</transform-into>
 				</append-dynamic>
 			</behavior>
 		</completion>
@@ -4876,7 +4876,7 @@
 			<behavior>
 				<append-dynamic>
 					<matched-suffix>(\s*\()|[^\(]</matched-suffix>
-					<transform-into>(?1::(${1:${2:[\\$author]}}\)$0)</transform-into>
+					<transform-into>(?1::(${1:[\\$author]}\)$0)</transform-into>
 				</append-dynamic>
 			</behavior>
 		</completion>
@@ -4886,7 +4886,7 @@
 			<behavior>
 				<append-dynamic>
 					<matched-suffix>(\s*\()|[^\(]</matched-suffix>
-					<transform-into>(?1::(${1:${2:[\\$category]}}\)$0)</transform-into>
+					<transform-into>(?1::(${1:[\\$category]}\)$0)</transform-into>
 				</append-dynamic>
 			</behavior>
 		</completion>
@@ -4916,7 +4916,7 @@
 			<behavior>
 				<append-dynamic>
 					<matched-suffix>(\s*\()|[^\(]</matched-suffix>
-					<transform-into>(?1::(${1:${2:[\\$feeds]}}\)$0)</transform-into>
+					<transform-into>(?1::(${1:[\\$feeds]}\)$0)</transform-into>
 				</append-dynamic>
 			</behavior>
 		</completion>
@@ -4935,7 +4935,7 @@
 			<behavior>
 				<append-dynamic>
 					<matched-suffix>(\s*\()|[^\(]</matched-suffix>
-					<transform-into>(?1::(${1:${2:[\\$network_id]}}\)$0)</transform-into>
+					<transform-into>(?1::(${1:[\\$network_id]}\)$0)</transform-into>
 				</append-dynamic>
 			</behavior>
 		</completion>
@@ -4944,7 +4944,7 @@
 			<behavior>
 				<append-dynamic>
 					<matched-suffix>(\s*\()|[^\(]</matched-suffix>
-					<transform-into>(?1::(${1:${2:[\\$site_id]}}\)$0)</transform-into>
+					<transform-into>(?1::(${1:[\\$site_id]}\)$0)</transform-into>
 				</append-dynamic>
 			</behavior>
 		</completion>
@@ -4963,7 +4963,7 @@
 			<behavior>
 				<append-dynamic>
 					<matched-suffix>(\s*\()|[^\(]</matched-suffix>
-					<transform-into>(?1::(${1:${2:[\\$menu_item_id]}}\)$0)</transform-into>
+					<transform-into>(?1::(${1:[\\$menu_item_id]}\)$0)</transform-into>
 				</append-dynamic>
 			</behavior>
 		</completion>
@@ -4997,7 +4997,7 @@
 			<behavior>
 				<append-dynamic>
 					<matched-suffix>(\s*\()|[^\(]</matched-suffix>
-					<transform-into>(?1::(${1:${2:[\\$page]}}\)$0)</transform-into>
+					<transform-into>(?1::(${1:[\\$page]}\)$0)</transform-into>
 				</append-dynamic>
 			</behavior>
 		</completion>
@@ -5005,7 +5005,7 @@
 			<behavior>
 				<append-dynamic>
 					<matched-suffix>(\s*\()|[^\(]</matched-suffix>
-					<transform-into>(?1::(${1:${2:[\\$template]}}\)$0)</transform-into>
+					<transform-into>(?1::(${1:[\\$template]}\)$0)</transform-into>
 				</append-dynamic>
 			</behavior>
 		</completion>
@@ -5038,7 +5038,7 @@
 			<behavior>
 				<append-dynamic>
 					<matched-suffix>(\s*\()|[^\(]</matched-suffix>
-					<transform-into>(?1::(${1:${2:[\\$post_types]}}\)$0)</transform-into>
+					<transform-into>(?1::(${1:[\\$post_types]}\)$0)</transform-into>
 				</append-dynamic>
 			</behavior>
 		</completion>
@@ -5063,7 +5063,7 @@
 			<behavior>
 				<append-dynamic>
 					<matched-suffix>(\s*\()|[^\(]</matched-suffix>
-					<transform-into>(?1::(${1:${2:[\\$type]}}\)$0)</transform-into>
+					<transform-into>(?1::(${1:[\\$type]}\)$0)</transform-into>
 				</append-dynamic>
 			</behavior>
 		</completion>
@@ -5090,7 +5090,7 @@
 			<behavior>
 				<append-dynamic>
 					<matched-suffix>(\s*\()|[^\(]</matched-suffix>
-					<transform-into>(?1::(${1:${2:[\\$post]}}\)$0)</transform-into>
+					<transform-into>(?1::(${1:[\\$post]}\)$0)</transform-into>
 				</append-dynamic>
 			</behavior>
 		</completion>
@@ -5098,7 +5098,7 @@
 			<behavior>
 				<append-dynamic>
 					<matched-suffix>(\s*\()|[^\(]</matched-suffix>
-					<transform-into>(?1::(${1:${2:[\\$post_types]}}\)$0)</transform-into>
+					<transform-into>(?1::(${1:[\\$post_types]}\)$0)</transform-into>
 				</append-dynamic>
 			</behavior>
 		</completion>
@@ -5107,7 +5107,7 @@
 			<behavior>
 				<append-dynamic>
 					<matched-suffix>(\s*\()|[^\(]</matched-suffix>
-					<transform-into>(?1::(${1:${2:[\\$post_id]}}\)$0)</transform-into>
+					<transform-into>(?1::(${1:[\\$post_id]}\)$0)</transform-into>
 				</append-dynamic>
 			</behavior>
 		</completion>
@@ -5116,7 +5116,7 @@
 			<behavior>
 				<append-dynamic>
 					<matched-suffix>(\s*\()|[^\(]</matched-suffix>
-					<transform-into>(?1::(${1:${2:[\\$user_id]}}\)$0)</transform-into>
+					<transform-into>(?1::(${1:[\\$user_id]}\)$0)</transform-into>
 				</append-dynamic>
 			</behavior>
 		</completion>
@@ -5124,7 +5124,7 @@
 			<behavior>
 				<append-dynamic>
 					<matched-suffix>(\s*\()|[^\(]</matched-suffix>
-					<transform-into>(?1::(${1:${2:[\\$tag]}}\)$0)</transform-into>
+					<transform-into>(?1::(${1:[\\$tag]}\)$0)</transform-into>
 				</append-dynamic>
 			</behavior>
 		</completion>
@@ -5185,7 +5185,7 @@
 			<behavior>
 				<append-dynamic>
 					<matched-suffix>(\s*\()|[^\(]</matched-suffix>
-					<transform-into>(?1::(${1:${2:[\\$user]}}\)$0)</transform-into>
+					<transform-into>(?1::(${1:[\\$user]}\)$0)</transform-into>
 				</append-dynamic>
 			</behavior>
 		</completion>
@@ -5221,7 +5221,7 @@
 			<behavior>
 				<append-dynamic>
 					<matched-suffix>(\s*\()|[^\(]</matched-suffix>
-					<transform-into>(?1::(${1:${2:[\\$doctype]}}\)$0)</transform-into>
+					<transform-into>(?1::(${1:[\\$doctype]}\)$0)</transform-into>
 				</append-dynamic>
 			</behavior>
 		</completion>
@@ -5371,7 +5371,7 @@
 			<behavior>
 				<append-dynamic>
 					<matched-suffix>(\s*\()|[^\(]</matched-suffix>
-					<transform-into>(?1::(${1:${2:[\\$input_id]}}\)$0)</transform-into>
+					<transform-into>(?1::(${1:[\\$input_id]}\)$0)</transform-into>
 				</append-dynamic>
 			</behavior>
 		</completion>
@@ -5468,7 +5468,7 @@
 			<behavior>
 				<append-dynamic>
 					<matched-suffix>(\s*\()|[^\(]</matched-suffix>
-					<transform-into>(?1::(${1:${2:[\\$reset]}}\)$0)</transform-into>
+					<transform-into>(?1::(${1:[\\$reset]}\)$0)</transform-into>
 				</append-dynamic>
 			</behavior>
 		</completion>
@@ -5476,7 +5476,7 @@
 			<behavior>
 				<append-dynamic>
 					<matched-suffix>(\s*\()|[^\(]</matched-suffix>
-					<transform-into>(?1::(${1:${2:[\\$editor_id]}}\)$0)</transform-into>
+					<transform-into>(?1::(${1:[\\$editor_id]}\)$0)</transform-into>
 				</append-dynamic>
 			</behavior>
 		</completion>
@@ -5535,7 +5535,7 @@
 			<behavior>
 				<append-dynamic>
 					<matched-suffix>(\s*\()|[^\(]</matched-suffix>
-					<transform-into>(?1::(${1:${2:[\\$errors]}}\)$0)</transform-into>
+					<transform-into>(?1::(${1:[\\$errors]}\)$0)</transform-into>
 				</append-dynamic>
 			</behavior>
 		</completion>
@@ -5601,7 +5601,7 @@
 			<behavior>
 				<append-dynamic>
 					<matched-suffix>(\s*\()|[^\(]</matched-suffix>
-					<transform-into>(?1::(${1:${2:[\\$post]}}\)$0)</transform-into>
+					<transform-into>(?1::(${1:[\\$post]}\)$0)</transform-into>
 				</append-dynamic>
 			</behavior>
 		</completion>
@@ -5773,7 +5773,7 @@
 			<behavior>
 				<append-dynamic>
 					<matched-suffix>(\s*\()|[^\(]</matched-suffix>
-					<transform-into>(?1::(${1:${2:[\\$default]}}\)$0)</transform-into>
+					<transform-into>(?1::(${1:[\\$default]}\)$0)</transform-into>
 				</append-dynamic>
 			</behavior>
 		</completion>
@@ -5781,7 +5781,7 @@
 			<behavior>
 				<append-dynamic>
 					<matched-suffix>(\s*\()|[^\(]</matched-suffix>
-					<transform-into>(?1::(${1:${2:[\\$args]}}\)$0)</transform-into>
+					<transform-into>(?1::(${1:[\\$args]}\)$0)</transform-into>
 				</append-dynamic>
 			</behavior>
 		</completion>
@@ -5789,7 +5789,7 @@
 			<behavior>
 				<append-dynamic>
 					<matched-suffix>(\s*\()|[^\(]</matched-suffix>
-					<transform-into>(?1::(${1:${2:[\\$args]}}\)$0)</transform-into>
+					<transform-into>(?1::(${1:[\\$args]}\)$0)</transform-into>
 				</append-dynamic>
 			</behavior>
 		</completion>
@@ -5827,7 +5827,7 @@
 			<behavior>
 				<append-dynamic>
 					<matched-suffix>(\s*\()|[^\(]</matched-suffix>
-					<transform-into>(?1::(${1:${2:[\\$mode]}}\)$0)</transform-into>
+					<transform-into>(?1::(${1:[\\$mode]}\)$0)</transform-into>
 				</append-dynamic>
 			</behavior>
 		</completion>
@@ -5851,7 +5851,7 @@
 			<behavior>
 				<append-dynamic>
 					<matched-suffix>(\s*\()|[^\(]</matched-suffix>
-					<transform-into>(?1::(${1:${2:[\\$post_id]}}\)$0)</transform-into>
+					<transform-into>(?1::(${1:[\\$post_id]}\)$0)</transform-into>
 				</append-dynamic>
 			</behavior>
 		</completion>
@@ -5900,7 +5900,7 @@
 			<behavior>
 				<append-dynamic>
 					<matched-suffix>(\s*\()|[^\(]</matched-suffix>
-					<transform-into>(?1::(${1:${2:[\\$network_id]}}\)$0)</transform-into>
+					<transform-into>(?1::(${1:[\\$network_id]}\)$0)</transform-into>
 				</append-dynamic>
 			</behavior>
 		</completion>
@@ -5982,7 +5982,7 @@
 			<behavior>
 				<append-dynamic>
 					<matched-suffix>(\s*\()|[^\(]</matched-suffix>
-					<transform-into>(?1::(${1:${2:[\\$key]}}\)$0)</transform-into>
+					<transform-into>(?1::(${1:[\\$key]}\)$0)</transform-into>
 				</append-dynamic>
 			</behavior>
 		</completion>
@@ -6022,7 +6022,7 @@
 			<behavior>
 				<append-dynamic>
 					<matched-suffix>(\s*\()|[^\(]</matched-suffix>
-					<transform-into>(?1::(${1:${2:[\\$post]}}\)$0)</transform-into>
+					<transform-into>(?1::(${1:[\\$post]}\)$0)</transform-into>
 				</append-dynamic>
 			</behavior>
 		</completion>
@@ -6156,7 +6156,7 @@
 			<behavior>
 				<append-dynamic>
 					<matched-suffix>(\s*\()|[^\(]</matched-suffix>
-					<transform-into>(?1::(${1:${2:[\\$label]}}\)$0)</transform-into>
+					<transform-into>(?1::(${1:[\\$label]}\)$0)</transform-into>
 				</append-dynamic>
 			</behavior>
 		</completion>
@@ -6180,7 +6180,7 @@
 			<behavior>
 				<append-dynamic>
 					<matched-suffix>(\s*\()|[^\(]</matched-suffix>
-					<transform-into>(?1::(${1:${2:[\\$echo]}}\)$0)</transform-into>
+					<transform-into>(?1::(${1:[\\$echo]}\)$0)</transform-into>
 				</append-dynamic>
 			</behavior>
 		</completion>
@@ -6188,7 +6188,7 @@
 			<behavior>
 				<append-dynamic>
 					<matched-suffix>(\s*\()|[^\(]</matched-suffix>
-					<transform-into>(?1::(${1:${2:[\\$label]}}\)$0)</transform-into>
+					<transform-into>(?1::(${1:[\\$label]}\)$0)</transform-into>
 				</append-dynamic>
 			</behavior>
 		</completion>
@@ -6242,7 +6242,7 @@
 			<behavior>
 				<append-dynamic>
 					<matched-suffix>(\s*\()|[^\(]</matched-suffix>
-					<transform-into>(?1::(${1:${2:[\\$post_id]}}\)$0)</transform-into>
+					<transform-into>(?1::(${1:[\\$post_id]}\)$0)</transform-into>
 				</append-dynamic>
 			</behavior>
 		</completion>
@@ -6317,7 +6317,7 @@
 			<behavior>
 				<append-dynamic>
 					<matched-suffix>(\s*\()|[^\(]</matched-suffix>
-					<transform-into>(?1::(${1:${2:[\\$locations]}}\)$0)</transform-into>
+					<transform-into>(?1::(${1:[\\$locations]}\)$0)</transform-into>
 				</append-dynamic>
 			</behavior>
 		</completion>
@@ -6357,7 +6357,7 @@
 			<behavior>
 				<append-dynamic>
 					<matched-suffix>(\s*\()|[^\(]</matched-suffix>
-					<transform-into>(?1::(${1:${2:[\\$args]}}\)$0)</transform-into>
+					<transform-into>(?1::(${1:[\\$args]}\)$0)</transform-into>
 				</append-dynamic>
 			</behavior>
 		</completion>
@@ -6582,7 +6582,7 @@
 			<behavior>
 				<append-dynamic>
 					<matched-suffix>(\s*\()|[^\(]</matched-suffix>
-					<transform-into>(?1::(${1:${2:[\\$theme_changed]}}\)$0)</transform-into>
+					<transform-into>(?1::(${1:[\\$theme_changed]}\)$0)</transform-into>
 				</append-dynamic>
 			</behavior>
 		</completion>
@@ -6814,7 +6814,7 @@
 			<behavior>
 				<append-dynamic>
 					<matched-suffix>(\s*\()|[^\(]</matched-suffix>
-					<transform-into>(?1::(${1:${2:[\\$force]}}\)$0)</transform-into>
+					<transform-into>(?1::(${1:[\\$force]}\)$0)</transform-into>
 				</append-dynamic>
 			</behavior>
 		</completion>
@@ -6859,7 +6859,7 @@
 			<behavior>
 				<append-dynamic>
 					<matched-suffix>(\s*\()|[^\(]</matched-suffix>
-					<transform-into>(?1::(${1:${2:[\\$hook_name]}}\)$0)</transform-into>
+					<transform-into>(?1::(${1:[\\$hook_name]}\)$0)</transform-into>
 				</append-dynamic>
 			</behavior>
 		</completion>
@@ -6972,7 +6972,7 @@
 			<behavior>
 				<append-dynamic>
 					<matched-suffix>(\s*\()|[^\(]</matched-suffix>
-					<transform-into>(?1::(${1:${2:[\\$for_user_id]}}\)$0)</transform-into>
+					<transform-into>(?1::(${1:[\\$for_user_id]}\)$0)</transform-into>
 				</append-dynamic>
 			</behavior>
 		</completion>
@@ -7203,7 +7203,7 @@
 			<behavior>
 				<append-dynamic>
 					<matched-suffix>(\s*\()|[^\(]</matched-suffix>
-					<transform-into>(?1::(${1:${2:[\\$tag]}}\)$0)</transform-into>
+					<transform-into>(?1::(${1:[\\$tag]}\)$0)</transform-into>
 				</append-dynamic>
 			</behavior>
 		</completion>
@@ -7285,7 +7285,7 @@
 			<behavior>
 				<append-dynamic>
 					<matched-suffix>(\s*\()|[^\(]</matched-suffix>
-					<transform-into>(?1::(${1:${2:[\\$deprecated]}}\)$0)</transform-into>
+					<transform-into>(?1::(${1:[\\$deprecated]}\)$0)</transform-into>
 				</append-dynamic>
 			</behavior>
 		</completion>
@@ -7301,7 +7301,7 @@
 			<behavior>
 				<append-dynamic>
 					<matched-suffix>(\s*\()|[^\(]</matched-suffix>
-					<transform-into>(?1::(${1:${2:[\\$type]}}\)$0)</transform-into>
+					<transform-into>(?1::(${1:[\\$type]}\)$0)</transform-into>
 				</append-dynamic>
 			</behavior>
 		</completion>
@@ -7318,7 +7318,7 @@
 			<behavior>
 				<append-dynamic>
 					<matched-suffix>(\s*\()|[^\(]</matched-suffix>
-					<transform-into>(?1::(${1:${2:[\\$feed_type]}}\)$0)</transform-into>
+					<transform-into>(?1::(${1:[\\$feed_type]}\)$0)</transform-into>
 				</append-dynamic>
 			</behavior>
 		</completion>
@@ -7353,7 +7353,7 @@
 			<behavior>
 				<append-dynamic>
 					<matched-suffix>(\s*\()|[^\(]</matched-suffix>
-					<transform-into>(?1::(${1:${2:[\\$id]}}\)$0)</transform-into>
+					<transform-into>(?1::(${1:[\\$id]}\)$0)</transform-into>
 				</append-dynamic>
 			</behavior>
 		</completion>
@@ -7373,7 +7373,7 @@
 			<behavior>
 				<append-dynamic>
 					<matched-suffix>(\s*\()|[^\(]</matched-suffix>
-					<transform-into>(?1::(${1:${2:[\\$d]}}\)$0)</transform-into>
+					<transform-into>(?1::(${1:[\\$d]}\)$0)</transform-into>
 				</append-dynamic>
 			</behavior>
 		</completion>
@@ -7410,7 +7410,7 @@
 			<behavior>
 				<append-dynamic>
 					<matched-suffix>(\s*\()|[^\(]</matched-suffix>
-					<transform-into>(?1::(${1:${2:[\\$args]}}\)$0)</transform-into>
+					<transform-into>(?1::(${1:[\\$args]}\)$0)</transform-into>
 				</append-dynamic>
 			</behavior>
 		</completion>
@@ -7426,7 +7426,7 @@
 			<behavior>
 				<append-dynamic>
 					<matched-suffix>(\s*\()|[^\(]</matched-suffix>
-					<transform-into>(?1::(${1:${2:[\\$d]}}\)$0)</transform-into>
+					<transform-into>(?1::(${1:[\\$d]}\)$0)</transform-into>
 				</append-dynamic>
 			</behavior>
 		</completion>
@@ -7442,7 +7442,7 @@
 			<behavior>
 				<append-dynamic>
 					<matched-suffix>(\s*\()|[^\(]</matched-suffix>
-					<transform-into>(?1::(${1:${2:[\\$args]}}\)$0)</transform-into>
+					<transform-into>(?1::(${1:[\\$args]}\)$0)</transform-into>
 				</append-dynamic>
 			</behavior>
 		</completion>
@@ -7508,7 +7508,7 @@
 			<behavior>
 				<append-dynamic>
 					<matched-suffix>(\s*\()|[^\(]</matched-suffix>
-					<transform-into>(?1::(${1:${2:[\\$deprecated]}}\)$0)</transform-into>
+					<transform-into>(?1::(${1:[\\$deprecated]}\)$0)</transform-into>
 				</append-dynamic>
 			</behavior>
 		</completion>
@@ -7524,7 +7524,7 @@
 			<behavior>
 				<append-dynamic>
 					<matched-suffix>(\s*\()|[^\(]</matched-suffix>
-					<transform-into>(?1::(${1:${2:[\\$deprecated_echo]}}\)$0)</transform-into>
+					<transform-into>(?1::(${1:[\\$deprecated_echo]}\)$0)</transform-into>
 				</append-dynamic>
 			</behavior>
 		</completion>
@@ -7851,7 +7851,7 @@
 			<behavior>
 				<append-dynamic>
 					<matched-suffix>(\s*\()|[^\(]</matched-suffix>
-					<transform-into>(?1::(${1:${2:[\\$wp_query]}}\)$0)</transform-into>
+					<transform-into>(?1::(${1:[\\$wp_query]}\)$0)</transform-into>
 				</append-dynamic>
 			</behavior>
 		</completion>
@@ -7951,7 +7951,7 @@
 			<behavior>
 				<append-dynamic>
 					<matched-suffix>(\s*\()|[^\(]</matched-suffix>
-					<transform-into>(?1::(${1:${2:[\\$echo]}}\)$0)</transform-into>
+					<transform-into>(?1::(${1:[\\$echo]}\)$0)</transform-into>
 				</append-dynamic>
 			</behavior>
 		</completion>
@@ -8284,7 +8284,7 @@
 			<behavior>
 				<append-dynamic>
 					<matched-suffix>(\s*\()|[^\(]</matched-suffix>
-					<transform-into>(?1::(${1:${2:[\\$file]}}\)$0)</transform-into>
+					<transform-into>(?1::(${1:[\\$file]}\)$0)</transform-into>
 				</append-dynamic>
 			</behavior>
 		</completion>
@@ -8421,7 +8421,7 @@
 			<behavior>
 				<append-dynamic>
 					<matched-suffix>(\s*\()|[^\(]</matched-suffix>
-					<transform-into>(?1::(${1:${2:[\\$post_id]}}\)$0)</transform-into>
+					<transform-into>(?1::(${1:[\\$post_id]}\)$0)</transform-into>
 				</append-dynamic>
 			</behavior>
 		</completion>
@@ -8670,7 +8670,7 @@
 			<behavior>
 				<append-dynamic>
 					<matched-suffix>(\s*\()|[^\(]</matched-suffix>
-					<transform-into>(?1::(${1:${2:[\\$clear_update_cache]}}\)$0)</transform-into>
+					<transform-into>(?1::(${1:[\\$clear_update_cache]}\)$0)</transform-into>
 				</append-dynamic>
 			</behavior>
 		</completion>
@@ -8678,7 +8678,7 @@
 			<behavior>
 				<append-dynamic>
 					<matched-suffix>(\s*\()|[^\(]</matched-suffix>
-					<transform-into>(?1::(${1:${2:[\\$clear_update_cache]}}\)$0)</transform-into>
+					<transform-into>(?1::(${1:[\\$clear_update_cache]}\)$0)</transform-into>
 				</append-dynamic>
 			</behavior>
 		</completion>
@@ -8724,7 +8724,7 @@
 			<behavior>
 				<append-dynamic>
 					<matched-suffix>(\s*\()|[^\(]</matched-suffix>
-					<transform-into>(?1::(${1:${2:[\\$mime_type]}}\)$0)</transform-into>
+					<transform-into>(?1::(${1:[\\$mime_type]}\)$0)</transform-into>
 				</append-dynamic>
 			</behavior>
 		</completion>
@@ -8732,7 +8732,7 @@
 			<behavior>
 				<append-dynamic>
 					<matched-suffix>(\s*\()|[^\(]</matched-suffix>
-					<transform-into>(?1::(${1:${2:[\\$post_id]}}\)$0)</transform-into>
+					<transform-into>(?1::(${1:[\\$post_id]}\)$0)</transform-into>
 				</append-dynamic>
 			</behavior>
 		</completion>
@@ -8780,7 +8780,7 @@
 			<behavior>
 				<append-dynamic>
 					<matched-suffix>(\s*\()|[^\(]</matched-suffix>
-					<transform-into>(?1::(${1:${2:[\\$action]}}\)$0)</transform-into>
+					<transform-into>(?1::(${1:[\\$action]}\)$0)</transform-into>
 				</append-dynamic>
 			</behavior>
 		</completion>
@@ -8831,7 +8831,7 @@
 			<behavior>
 				<append-dynamic>
 					<matched-suffix>(\s*\()|[^\(]</matched-suffix>
-					<transform-into>(?1::(${1:${2:[\\$stylesheet]}}\)$0)</transform-into>
+					<transform-into>(?1::(${1:[\\$stylesheet]}\)$0)</transform-into>
 				</append-dynamic>
 			</behavior>
 		</completion>
@@ -8865,7 +8865,7 @@
 			<behavior>
 				<append-dynamic>
 					<matched-suffix>(\s*\()|[^\(]</matched-suffix>
-					<transform-into>(?1::(${1:${2:[\\$error_msg]}}\)$0)</transform-into>
+					<transform-into>(?1::(${1:[\\$error_msg]}\)$0)</transform-into>
 				</append-dynamic>
 			</behavior>
 		</completion>
@@ -8874,7 +8874,7 @@
 			<behavior>
 				<append-dynamic>
 					<matched-suffix>(\s*\()|[^\(]</matched-suffix>
-					<transform-into>(?1::(${1:${2:[\\$total_items]}}\)$0)</transform-into>
+					<transform-into>(?1::(${1:[\\$total_items]}\)$0)</transform-into>
 				</append-dynamic>
 			</behavior>
 		</completion>
@@ -8914,7 +8914,7 @@
 			<behavior>
 				<append-dynamic>
 					<matched-suffix>(\s*\()|[^\(]</matched-suffix>
-					<transform-into>(?1::(${1:${2:[\\$widget_control_id]}}\)$0)</transform-into>
+					<transform-into>(?1::(${1:[\\$widget_control_id]}\)$0)</transform-into>
 				</append-dynamic>
 			</behavior>
 		</completion>
@@ -8947,7 +8947,7 @@
 			<behavior>
 				<append-dynamic>
 					<matched-suffix>(\s*\()|[^\(]</matched-suffix>
-					<transform-into>(?1::(${1:${2:[\\$defer]}}\)$0)</transform-into>
+					<transform-into>(?1::(${1:[\\$defer]}\)$0)</transform-into>
 				</append-dynamic>
 			</behavior>
 		</completion>
@@ -8955,7 +8955,7 @@
 			<behavior>
 				<append-dynamic>
 					<matched-suffix>(\s*\()|[^\(]</matched-suffix>
-					<transform-into>(?1::(${1:${2:[\\$defer]}}\)$0)</transform-into>
+					<transform-into>(?1::(${1:[\\$defer]}\)$0)</transform-into>
 				</append-dynamic>
 			</behavior>
 		</completion>
@@ -9085,7 +9085,7 @@
 			<behavior>
 				<append-dynamic>
 					<matched-suffix>(\s*\()|[^\(]</matched-suffix>
-					<transform-into>(?1::(${1:${2:[\\$args]}}\)$0)</transform-into>
+					<transform-into>(?1::(${1:[\\$args]}\)$0)</transform-into>
 				</append-dynamic>
 			</behavior>
 		</completion>
@@ -9093,7 +9093,7 @@
 			<behavior>
 				<append-dynamic>
 					<matched-suffix>(\s*\()|[^\(]</matched-suffix>
-					<transform-into>(?1::(${1:${2:[\\$args]}}\)$0)</transform-into>
+					<transform-into>(?1::(${1:[\\$args]}\)$0)</transform-into>
 				</append-dynamic>
 			</behavior>
 		</completion>
@@ -9101,7 +9101,7 @@
 			<behavior>
 				<append-dynamic>
 					<matched-suffix>(\s*\()|[^\(]</matched-suffix>
-					<transform-into>(?1::(${1:${2:[\\$selected]}}\)$0)</transform-into>
+					<transform-into>(?1::(${1:[\\$selected]}\)$0)</transform-into>
 				</append-dynamic>
 			</behavior>
 		</completion>
@@ -9109,7 +9109,7 @@
 			<behavior>
 				<append-dynamic>
 					<matched-suffix>(\s*\()|[^\(]</matched-suffix>
-					<transform-into>(?1::(${1:${2:[\\$args]}}\)$0)</transform-into>
+					<transform-into>(?1::(${1:[\\$args]}\)$0)</transform-into>
 				</append-dynamic>
 			</behavior>
 		</completion>
@@ -9117,7 +9117,7 @@
 			<behavior>
 				<append-dynamic>
 					<matched-suffix>(\s*\()|[^\(]</matched-suffix>
-					<transform-into>(?1::(${1:${2:[\\$q]}}\)$0)</transform-into>
+					<transform-into>(?1::(${1:[\\$q]}\)$0)</transform-into>
 				</append-dynamic>
 			</behavior>
 		</completion>
@@ -9125,7 +9125,7 @@
 			<behavior>
 				<append-dynamic>
 					<matched-suffix>(\s*\()|[^\(]</matched-suffix>
-					<transform-into>(?1::(${1:${2:[\\$q]}}\)$0)</transform-into>
+					<transform-into>(?1::(${1:[\\$q]}\)$0)</transform-into>
 				</append-dynamic>
 			</behavior>
 		</completion>
@@ -9141,7 +9141,7 @@
 			<behavior>
 				<append-dynamic>
 					<matched-suffix>(\s*\()|[^\(]</matched-suffix>
-					<transform-into>(?1::(${1:${2:[\\$url]}}\)$0)</transform-into>
+					<transform-into>(?1::(${1:[\\$url]}\)$0)</transform-into>
 				</append-dynamic>
 			</behavior>
 		</completion>
@@ -9317,7 +9317,7 @@
 			<behavior>
 				<append-dynamic>
 					<matched-suffix>(\s*\()|[^\(]</matched-suffix>
-					<transform-into>(?1::(${1:${2:[\\$args]}}\)$0)</transform-into>
+					<transform-into>(?1::(${1:[\\$args]}\)$0)</transform-into>
 				</append-dynamic>
 			</behavior>
 		</completion>
@@ -9373,7 +9373,7 @@
 			<behavior>
 				<append-dynamic>
 					<matched-suffix>(\s*\()|[^\(]</matched-suffix>
-					<transform-into>(?1::(${1:${2:[\\$post_id]}}\)$0)</transform-into>
+					<transform-into>(?1::(${1:[\\$post_id]}\)$0)</transform-into>
 				</append-dynamic>
 			</behavior>
 		</completion>
@@ -9381,7 +9381,7 @@
 			<behavior>
 				<append-dynamic>
 					<matched-suffix>(\s*\()|[^\(]</matched-suffix>
-					<transform-into>(?1::(${1:${2:[\\$post_id]}}\)$0)</transform-into>
+					<transform-into>(?1::(${1:[\\$post_id]}\)$0)</transform-into>
 				</append-dynamic>
 			</behavior>
 		</completion>
@@ -9389,7 +9389,7 @@
 			<behavior>
 				<append-dynamic>
 					<matched-suffix>(\s*\()|[^\(]</matched-suffix>
-					<transform-into>(?1::(${1:${2:[\\$post_id]}}\)$0)</transform-into>
+					<transform-into>(?1::(${1:[\\$post_id]}\)$0)</transform-into>
 				</append-dynamic>
 			</behavior>
 		</completion>
@@ -9448,7 +9448,7 @@
 			<behavior>
 				<append-dynamic>
 					<matched-suffix>(\s*\()|[^\(]</matched-suffix>
-					<transform-into>(?1::(${1:${2:[\\$link_id]}}\)$0)</transform-into>
+					<transform-into>(?1::(${1:[\\$link_id]}\)$0)</transform-into>
 				</append-dynamic>
 			</behavior>
 		</completion>
@@ -9473,7 +9473,7 @@
 			<behavior>
 				<append-dynamic>
 					<matched-suffix>(\s*\()|[^\(]</matched-suffix>
-					<transform-into>(?1::(${1:${2:[\\$menu_id]}}\)$0)</transform-into>
+					<transform-into>(?1::(${1:[\\$menu_id]}\)$0)</transform-into>
 				</append-dynamic>
 			</behavior>
 		</completion>
@@ -9481,7 +9481,7 @@
 			<behavior>
 				<append-dynamic>
 					<matched-suffix>(\s*\()|[^\(]</matched-suffix>
-					<transform-into>(?1::(${1:${2:[\\$args]}}\)$0)</transform-into>
+					<transform-into>(?1::(${1:[\\$args]}\)$0)</transform-into>
 				</append-dynamic>
 			</behavior>
 		</completion>
@@ -9548,7 +9548,7 @@
 			<behavior>
 				<append-dynamic>
 					<matched-suffix>(\s*\()|[^\(]</matched-suffix>
-					<transform-into>(?1::(${1:${2:[\\$post_id]}}\)$0)</transform-into>
+					<transform-into>(?1::(${1:[\\$post_id]}\)$0)</transform-into>
 				</append-dynamic>
 			</behavior>
 		</completion>
@@ -9606,7 +9606,7 @@
 			<behavior>
 				<append-dynamic>
 					<matched-suffix>(\s*\()|[^\(]</matched-suffix>
-					<transform-into>(?1::(${1:${2:[\\$args]}}\)$0)</transform-into>
+					<transform-into>(?1::(${1:[\\$args]}\)$0)</transform-into>
 				</append-dynamic>
 			</behavior>
 		</completion>
@@ -9630,7 +9630,7 @@
 			<behavior>
 				<append-dynamic>
 					<matched-suffix>(\s*\()|[^\(]</matched-suffix>
-					<transform-into>(?1::(${1:${2:[\\$args]}}\)$0)</transform-into>
+					<transform-into>(?1::(${1:[\\$args]}\)$0)</transform-into>
 				</append-dynamic>
 			</behavior>
 		</completion>
@@ -9640,7 +9640,7 @@
 			<behavior>
 				<append-dynamic>
 					<matched-suffix>(\s*\()|[^\(]</matched-suffix>
-					<transform-into>(?1::(${1:${2:[\\$user]}}\)$0)</transform-into>
+					<transform-into>(?1::(${1:[\\$user]}\)$0)</transform-into>
 				</append-dynamic>
 			</behavior>
 		</completion>
@@ -9733,7 +9733,7 @@
 			<behavior>
 				<append-dynamic>
 					<matched-suffix>(\s*\()|[^\(]</matched-suffix>
-					<transform-into>(?1::(${1:${2:[\\$args]}}\)$0)</transform-into>
+					<transform-into>(?1::(${1:[\\$args]}\)$0)</transform-into>
 				</append-dynamic>
 			</behavior>
 		</completion>
@@ -9840,7 +9840,7 @@
 			<behavior>
 				<append-dynamic>
 					<matched-suffix>(\s*\()|[^\(]</matched-suffix>
-					<transform-into>(?1::(${1:${2:[\\$using]}}\)$0)</transform-into>
+					<transform-into>(?1::(${1:[\\$using]}\)$0)</transform-into>
 				</append-dynamic>
 			</behavior>
 		</completion>
@@ -9898,7 +9898,7 @@
 			<behavior>
 				<append-dynamic>
 					<matched-suffix>(\s*\()|[^\(]</matched-suffix>
-					<transform-into>(?1::(${1:${2:[\\$context]}}\)$0)</transform-into>
+					<transform-into>(?1::(${1:[\\$context]}\)$0)</transform-into>
 				</append-dynamic>
 			</behavior>
 		</completion>
@@ -10043,7 +10043,7 @@
 			<behavior>
 				<append-dynamic>
 					<matched-suffix>(\s*\()|[^\(]</matched-suffix>
-					<transform-into>(?1::(${1:${2:[\\$link_id]}}\)$0)</transform-into>
+					<transform-into>(?1::(${1:[\\$link_id]}\)$0)</transform-into>
 				</append-dynamic>
 			</behavior>
 		</completion>
@@ -10051,7 +10051,7 @@
 			<behavior>
 				<append-dynamic>
 					<matched-suffix>(\s*\()|[^\(]</matched-suffix>
-					<transform-into>(?1::(${1:${2:[\\$args]}}\)$0)</transform-into>
+					<transform-into>(?1::(${1:[\\$args]}\)$0)</transform-into>
 				</append-dynamic>
 			</behavior>
 		</completion>
@@ -10059,7 +10059,7 @@
 			<behavior>
 				<append-dynamic>
 					<matched-suffix>(\s*\()|[^\(]</matched-suffix>
-					<transform-into>(?1::(${1:${2:[\\$args]}}\)$0)</transform-into>
+					<transform-into>(?1::(${1:[\\$args]}\)$0)</transform-into>
 				</append-dynamic>
 			</behavior>
 		</completion>
@@ -10067,7 +10067,7 @@
 			<behavior>
 				<append-dynamic>
 					<matched-suffix>(\s*\()|[^\(]</matched-suffix>
-					<transform-into>(?1::(${1:${2:[\\$args]}}\)$0)</transform-into>
+					<transform-into>(?1::(${1:[\\$args]}\)$0)</transform-into>
 				</append-dynamic>
 			</behavior>
 		</completion>
@@ -10075,7 +10075,7 @@
 			<behavior>
 				<append-dynamic>
 					<matched-suffix>(\s*\()|[^\(]</matched-suffix>
-					<transform-into>(?1::(${1:${2:[\\$args]}}\)$0)</transform-into>
+					<transform-into>(?1::(${1:[\\$args]}\)$0)</transform-into>
 				</append-dynamic>
 			</behavior>
 		</completion>
@@ -10099,7 +10099,7 @@
 			<behavior>
 				<append-dynamic>
 					<matched-suffix>(\s*\()|[^\(]</matched-suffix>
-					<transform-into>(?1::(${1:${2:[\\$args]}}\)$0)</transform-into>
+					<transform-into>(?1::(${1:[\\$args]}\)$0)</transform-into>
 				</append-dynamic>
 			</behavior>
 		</completion>
@@ -10141,7 +10141,7 @@
 			<behavior>
 				<append-dynamic>
 					<matched-suffix>(\s*\()|[^\(]</matched-suffix>
-					<transform-into>(?1::(${1:${2:[\\$site_id]}}\)$0)</transform-into>
+					<transform-into>(?1::(${1:[\\$site_id]}\)$0)</transform-into>
 				</append-dynamic>
 			</behavior>
 		</completion>
@@ -10157,7 +10157,7 @@
 			<behavior>
 				<append-dynamic>
 					<matched-suffix>(\s*\()|[^\(]</matched-suffix>
-					<transform-into>(?1::(${1:${2:[\\$args]}}\)$0)</transform-into>
+					<transform-into>(?1::(${1:[\\$args]}\)$0)</transform-into>
 				</append-dynamic>
 			</behavior>
 		</completion>
@@ -10183,7 +10183,7 @@
 			<behavior>
 				<append-dynamic>
 					<matched-suffix>(\s*\()|[^\(]</matched-suffix>
-					<transform-into>(?1::(${1:${2:[\\$redirect]}}\)$0)</transform-into>
+					<transform-into>(?1::(${1:[\\$redirect]}\)$0)</transform-into>
 				</append-dynamic>
 			</behavior>
 		</completion>
@@ -10191,7 +10191,7 @@
 			<behavior>
 				<append-dynamic>
 					<matched-suffix>(\s*\()|[^\(]</matched-suffix>
-					<transform-into>(?1::(${1:${2:[\\$redirect]}}\)$0)</transform-into>
+					<transform-into>(?1::(${1:[\\$redirect]}\)$0)</transform-into>
 				</append-dynamic>
 			</behavior>
 		</completion>
@@ -10237,7 +10237,7 @@
 			<behavior>
 				<append-dynamic>
 					<matched-suffix>(\s*\()|[^\(]</matched-suffix>
-					<transform-into>(?1::(${1:${2:[\\$default_view]}}\)$0)</transform-into>
+					<transform-into>(?1::(${1:[\\$default_view]}\)$0)</transform-into>
 				</append-dynamic>
 			</behavior>
 		</completion>
@@ -10255,7 +10255,7 @@
 			<behavior>
 				<append-dynamic>
 					<matched-suffix>(\s*\()|[^\(]</matched-suffix>
-					<transform-into>(?1::(${1:${2:[\\$mime]}}\)$0)</transform-into>
+					<transform-into>(?1::(${1:[\\$mime]}\)$0)</transform-into>
 				</append-dynamic>
 			</behavior>
 		</completion>
@@ -10271,7 +10271,7 @@
 			<behavior>
 				<append-dynamic>
 					<matched-suffix>(\s*\()|[^\(]</matched-suffix>
-					<transform-into>(?1::(${1:${2:[\\$args]}}\)$0)</transform-into>
+					<transform-into>(?1::(${1:[\\$args]}\)$0)</transform-into>
 				</append-dynamic>
 			</behavior>
 		</completion>
@@ -10434,7 +10434,7 @@
 			<behavior>
 				<append-dynamic>
 					<matched-suffix>(\s*\()|[^\(]</matched-suffix>
-					<transform-into>(?1::(${1:${2:[\\$args]}}\)$0)</transform-into>
+					<transform-into>(?1::(${1:[\\$args]}\)$0)</transform-into>
 				</append-dynamic>
 			</behavior>
 		</completion>
@@ -10566,7 +10566,7 @@
 			<behavior>
 				<append-dynamic>
 					<matched-suffix>(\s*\()|[^\(]</matched-suffix>
-					<transform-into>(?1::(${1:${2:[\\$themes]}}\)$0)</transform-into>
+					<transform-into>(?1::(${1:[\\$themes]}\)$0)</transform-into>
 				</append-dynamic>
 			</behavior>
 		</completion>
@@ -10577,7 +10577,7 @@
 			<behavior>
 				<append-dynamic>
 					<matched-suffix>(\s*\()|[^\(]</matched-suffix>
-					<transform-into>(?1::(${1:${2:[\\$handles]}}\)$0)</transform-into>
+					<transform-into>(?1::(${1:[\\$handles]}\)$0)</transform-into>
 				</append-dynamic>
 			</behavior>
 		</completion>
@@ -10585,7 +10585,7 @@
 			<behavior>
 				<append-dynamic>
 					<matched-suffix>(\s*\()|[^\(]</matched-suffix>
-					<transform-into>(?1::(${1:${2:[\\$handles]}}\)$0)</transform-into>
+					<transform-into>(?1::(${1:[\\$handles]}\)$0)</transform-into>
 				</append-dynamic>
 			</behavior>
 		</completion>
@@ -10658,7 +10658,7 @@
 			<behavior>
 				<append-dynamic>
 					<matched-suffix>(\s*\()|[^\(]</matched-suffix>
-					<transform-into>(?1::(${1:${2:[\\$echo]}}\)$0)</transform-into>
+					<transform-into>(?1::(${1:[\\$echo]}\)$0)</transform-into>
 				</append-dynamic>
 			</behavior>
 		</completion>
@@ -10913,7 +10913,7 @@
 			<behavior>
 				<append-dynamic>
 					<matched-suffix>(\s*\()|[^\(]</matched-suffix>
-					<transform-into>(?1::(${1:${2:[\\$scheme]}}\)$0)</transform-into>
+					<transform-into>(?1::(${1:[\\$scheme]}\)$0)</transform-into>
 				</append-dynamic>
 			</behavior>
 		</completion>
@@ -10989,7 +10989,7 @@
 			<behavior>
 				<append-dynamic>
 					<matched-suffix>(\s*\()|[^\(]</matched-suffix>
-					<transform-into>(?1::(${1:${2:[\\$data]}}\)$0)</transform-into>
+					<transform-into>(?1::(${1:[\\$data]}\)$0)</transform-into>
 				</append-dynamic>
 			</behavior>
 		</completion>
@@ -10997,7 +10997,7 @@
 			<behavior>
 				<append-dynamic>
 					<matched-suffix>(\s*\()|[^\(]</matched-suffix>
-					<transform-into>(?1::(${1:${2:[\\$data]}}\)$0)</transform-into>
+					<transform-into>(?1::(${1:[\\$data]}\)$0)</transform-into>
 				</append-dynamic>
 			</behavior>
 		</completion>
@@ -11170,7 +11170,7 @@
 			<behavior>
 				<append-dynamic>
 					<matched-suffix>(\s*\()|[^\(]</matched-suffix>
-					<transform-into>(?1::(${1:${2:[\\$args]}}\)$0)</transform-into>
+					<transform-into>(?1::(${1:[\\$args]}\)$0)</transform-into>
 				</append-dynamic>
 			</behavior>
 		</completion>
@@ -11218,7 +11218,7 @@
 			<behavior>
 				<append-dynamic>
 					<matched-suffix>(\s*\()|[^\(]</matched-suffix>
-					<transform-into>(?1::(${1:${2:[\\$suspend]}}\)$0)</transform-into>
+					<transform-into>(?1::(${1:[\\$suspend]}\)$0)</transform-into>
 				</append-dynamic>
 			</behavior>
 		</completion>
@@ -11226,7 +11226,7 @@
 			<behavior>
 				<append-dynamic>
 					<matched-suffix>(\s*\()|[^\(]</matched-suffix>
-					<transform-into>(?1::(${1:${2:[\\$suspend]}}\)$0)</transform-into>
+					<transform-into>(?1::(${1:[\\$suspend]}\)$0)</transform-into>
 				</append-dynamic>
 			</behavior>
 		</completion>
@@ -11234,7 +11234,7 @@
 			<behavior>
 				<append-dynamic>
 					<matched-suffix>(\s*\()|[^\(]</matched-suffix>
-					<transform-into>(?1::(${1:${2:[\\$args]}}\)$0)</transform-into>
+					<transform-into>(?1::(${1:[\\$args]}\)$0)</transform-into>
 				</append-dynamic>
 			</behavior>
 		</completion>
@@ -11294,7 +11294,7 @@
 			<behavior>
 				<append-dynamic>
 					<matched-suffix>(\s*\()|[^\(]</matched-suffix>
-					<transform-into>(?1::(${1:${2:[\\$sep]}}\)$0)</transform-into>
+					<transform-into>(?1::(${1:[\\$sep]}\)$0)</transform-into>
 				</append-dynamic>
 			</behavior>
 		</completion>
@@ -11326,7 +11326,7 @@
 			<behavior>
 				<append-dynamic>
 					<matched-suffix>(\s*\()|[^\(]</matched-suffix>
-					<transform-into>(?1::(${1:${2:[\\$post_id]}}\)$0)</transform-into>
+					<transform-into>(?1::(${1:[\\$post_id]}\)$0)</transform-into>
 				</append-dynamic>
 			</behavior>
 		</completion>
@@ -11334,7 +11334,7 @@
 			<behavior>
 				<append-dynamic>
 					<matched-suffix>(\s*\()|[^\(]</matched-suffix>
-					<transform-into>(?1::(${1:${2:[\\$post]}}\)$0)</transform-into>
+					<transform-into>(?1::(${1:[\\$post]}\)$0)</transform-into>
 				</append-dynamic>
 			</behavior>
 		</completion>
@@ -11342,7 +11342,7 @@
 			<behavior>
 				<append-dynamic>
 					<matched-suffix>(\s*\()|[^\(]</matched-suffix>
-					<transform-into>(?1::(${1:${2:[\\$text]}}\)$0)</transform-into>
+					<transform-into>(?1::(${1:[\\$text]}\)$0)</transform-into>
 				</append-dynamic>
 			</behavior>
 		</completion>
@@ -11433,7 +11433,7 @@
 			<behavior>
 				<append-dynamic>
 					<matched-suffix>(\s*\()|[^\(]</matched-suffix>
-					<transform-into>(?1::(${1:${2:[\\$post_id]}}\)$0)</transform-into>
+					<transform-into>(?1::(${1:[\\$post_id]}\)$0)</transform-into>
 				</append-dynamic>
 			</behavior>
 		</completion>
@@ -11441,7 +11441,7 @@
 			<behavior>
 				<append-dynamic>
 					<matched-suffix>(\s*\()|[^\(]</matched-suffix>
-					<transform-into>(?1::(${1:${2:[\\$post]}}\)$0)</transform-into>
+					<transform-into>(?1::(${1:[\\$post]}\)$0)</transform-into>
 				</append-dynamic>
 			</behavior>
 		</completion>
@@ -11516,7 +11516,7 @@
 			<behavior>
 				<append-dynamic>
 					<matched-suffix>(\s*\()|[^\(]</matched-suffix>
-					<transform-into>(?1::(${1:${2:[\\$extra_stats]}}\)$0)</transform-into>
+					<transform-into>(?1::(${1:[\\$extra_stats]}\)$0)</transform-into>
 				</append-dynamic>
 			</behavior>
 		</completion>
@@ -11556,7 +11556,7 @@
 			<behavior>
 				<append-dynamic>
 					<matched-suffix>(\s*\()|[^\(]</matched-suffix>
-					<transform-into>(?1::(${1:${2:[\\$extra_stats]}}\)$0)</transform-into>
+					<transform-into>(?1::(${1:[\\$extra_stats]}\)$0)</transform-into>
 				</append-dynamic>
 			</behavior>
 		</completion>
@@ -11581,7 +11581,7 @@
 			<behavior>
 				<append-dynamic>
 					<matched-suffix>(\s*\()|[^\(]</matched-suffix>
-					<transform-into>(?1::(${1:${2:[\\$time]}}\)$0)</transform-into>
+					<transform-into>(?1::(${1:[\\$time]}\)$0)</transform-into>
 				</append-dynamic>
 			</behavior>
 		</completion>
@@ -11590,7 +11590,7 @@
 			<behavior>
 				<append-dynamic>
 					<matched-suffix>(\s*\()|[^\(]</matched-suffix>
-					<transform-into>(?1::(${1:${2:[\\$using]}}\)$0)</transform-into>
+					<transform-into>(?1::(${1:[\\$using]}\)$0)</transform-into>
 				</append-dynamic>
 			</behavior>
 		</completion>
