@@ -31,22 +31,6 @@
 		<completion string="_admin_bar_bump_cb" />
 		<completion string="_admin_notice_post_locked" />
 		<completion string="_admin_search_query" />
-		<completion string="_canonical_charset">
-			<behavior>
-				<append-dynamic>
-					<matched-suffix>(\s*\()|[^\(]</matched-suffix>
-					<transform-into>(?1::(${1:\\$charset}\)$0)</transform-into>
-				</append-dynamic>
-			</behavior>
-		</completion>
-		<completion string="_cleanup_header_comment">
-			<behavior>
-				<append-dynamic>
-					<matched-suffix>(\s*\()|[^\(]</matched-suffix>
-					<transform-into>(?1::(${1:\\$str}\)$0)</transform-into>
-				</append-dynamic>
-			</behavior>
-		</completion>
 		<completion string="_copy_dir">
 			<behavior>
 				<append-dynamic>
@@ -114,17 +98,8 @@
 				</append-dynamic>
 			</behavior>
 		</completion>
-		<completion string="_get_non_cached_ids">
-			<behavior>
-				<append-dynamic>
-					<matched-suffix>(\s*\()|[^\(]</matched-suffix>
-					<transform-into>(?1::(${1:\\$object_ids}, ${2:\\$cache_key}\)$0)</transform-into>
-				</append-dynamic>
-			</behavior>
-		</completion>
 		<completion string="_get_widget_id_base" />
 		<completion string="_hash_hmac" />
-		<completion string="_http_build_query" />
 		<completion string="_image_get_preview_ratio" />
 		<completion string="_ipad_meta" />
 		<completion string="_json_decode_object_helper" />
@@ -266,14 +241,6 @@
 				<append-dynamic>
 					<matched-suffix>(\s*\()|[^\(]</matched-suffix>
 					<transform-into>(?1::(${1:\\$path}\)$0)</transform-into>
-				</append-dynamic>
-			</behavior>
-		</completion>
-		<completion string="_wp_timezone_choice_usort_callback">
-			<behavior>
-				<append-dynamic>
-					<matched-suffix>(\s*\()|[^\(]</matched-suffix>
-					<transform-into>(?1::(${1:\\$a}, ${2:\\$b}\)$0)</transform-into>
 				</append-dynamic>
 			</behavior>
 		</completion>
@@ -5244,14 +5211,6 @@
 				</append-dynamic>
 			</behavior>
 		</completion>
-		<completion string="like_escape">
-			<behavior>
-				<append-dynamic>
-					<matched-suffix>(\s*\()|[^\(]</matched-suffix>
-					<transform-into>(?1::(${1:\\$text}\)$0)</transform-into>
-				</append-dynamic>
-			</behavior>
-		</completion>
 		<completion string="link_advanced_meta_box">
 			<behavior>
 				<append-dynamic>
@@ -7976,14 +7935,6 @@
 		</completion>
 		<completion string="upload_size_limit_filter" />
 		<completion string="upload_space_setting" />
-		<completion string="url_is_accessable_via_ssl">
-			<behavior>
-				<append-dynamic>
-					<matched-suffix>(\s*\()|[^\(]</matched-suffix>
-					<transform-into>(?1::(${1:\\$url}\)$0)</transform-into>
-				</append-dynamic>
-			</behavior>
-		</completion>
 		<completion string="url_shorten">
 			<behavior>
 				<append-dynamic>
