@@ -178,6 +178,22 @@
 				</append-dynamic>
 			</behavior>
 		</completion>
+		<completion string="_update_posts_count_on_delete">
+			<behavior>
+				<append-dynamic>
+					<matched-suffix>(\s*\()|[^\(]</matched-suffix>
+					<transform-into>(?1::(${1:\\$post_id}\)$0)</transform-into>
+				</append-dynamic>
+			</behavior>
+		</completion>
+		<completion string="_update_posts_count_on_transition_post_status">
+			<behavior>
+				<append-dynamic>
+					<matched-suffix>(\s*\()|[^\(]</matched-suffix>
+					<transform-into>(?1::(${1:\\$new_status}, ${2:\\$old_status}\)$0)</transform-into>
+				</append-dynamic>
+			</behavior>
+		</completion>
 		<completion string="_wp_admin_html_begin" />
 		<completion string="_wp_ajax_add_hierarchical_term" />
 		<completion string="_wp_ajax_delete_comment_response">
@@ -201,6 +217,14 @@
 		<completion string="_wp_dashboard_control_callback" />
 		<completion string="_wp_dashboard_recent_comments_row" />
 		<completion string="_wp_footer_scripts" />
+		<completion string="_wp_handle_upload">
+			<behavior>
+				<append-dynamic>
+					<matched-suffix>(\s*\()|[^\(]</matched-suffix>
+					<transform-into>(?1::(${1:\\$file}, ${2:\\$overrides}, ${3:\\$time}, ${4:\\$action}\)$0)</transform-into>
+				</append-dynamic>
+			</behavior>
+		</completion>
 		<completion string="_wp_kses_decode_entities_chr">
 			<behavior>
 				<append-dynamic>
@@ -793,6 +817,14 @@
 			</behavior>
 		</completion>
 		<completion string="attachment_submitbox_metadata" />
+		<completion string="attachment_url_to_postid">
+			<behavior>
+				<append-dynamic>
+					<matched-suffix>(\s*\()|[^\(]</matched-suffix>
+					<transform-into>(?1::(${1:\\$url}\)$0)</transform-into>
+				</append-dynamic>
+			</behavior>
+		</completion>
 		<completion string="auth_redirect" />
 		<completion string="author_can">
 			<behavior>
@@ -1620,6 +1652,14 @@
 				<append-dynamic>
 					<matched-suffix>(\s*\()|[^\(]</matched-suffix>
 					<transform-into>(?1::(${1:\\$tag}\)$0)</transform-into>
+				</append-dynamic>
+			</behavior>
+		</completion>
+		<completion string="disabled">
+			<behavior>
+				<append-dynamic>
+					<matched-suffix>(\s*\()|[^\(]</matched-suffix>
+					<transform-into>(?1::(${1:\\$disabled}${2:, ${3:[\\$current]}${4:, ${5:[\\$echo]}}}\)$0)</transform-into>
 				</append-dynamic>
 			</behavior>
 		</completion>
@@ -2788,6 +2828,14 @@
 				</append-dynamic>
 			</behavior>
 		</completion>
+		<completion string="get_comments_number_text">
+			<behavior>
+				<append-dynamic>
+					<matched-suffix>(\s*\()|[^\(]</matched-suffix>
+					<transform-into>(?1::(${1:${2:[\\$zero]}${3:, ${4:[\\$one]}${5:, ${6:[\\$more]}}}}\)$0)</transform-into>
+				</append-dynamic>
+			</behavior>
+		</completion>
 		<completion string="get_comments_pagenum_link">
 			<behavior>
 				<append-dynamic>
@@ -2929,6 +2977,7 @@
 			</behavior>
 		</completion>
 		<completion string="get_editable_roles" />
+		<completion string="get_editor_stylesheets" />
 		<completion string="get_enclosed">
 			<behavior>
 				<append-dynamic>
@@ -4574,7 +4623,6 @@
 				</append-dynamic>
 			</behavior>
 		</completion>
-		<completion string="hash_hmac" />
 		<completion string="have_comments" />
 		<completion string="have_posts" />
 		<completion string="header_image" />
@@ -4893,6 +4941,7 @@
 		<completion string="is_child_theme" />
 		<completion string="is_comment_feed" />
 		<completion string="is_comments_popup" />
+		<completion string="is_customize_preview" />
 		<completion string="is_date" />
 		<completion string="is_day" />
 		<completion string="is_dynamic_sidebar" />
@@ -5309,7 +5358,14 @@
 				</append-dynamic>
 			</behavior>
 		</completion>
-		<completion string="load_default_textdomain" />
+		<completion string="load_default_textdomain">
+			<behavior>
+				<append-dynamic>
+					<matched-suffix>(\s*\()|[^\(]</matched-suffix>
+					<transform-into>(?1::(${1:[\\$locale]}\)$0)</transform-into>
+				</append-dynamic>
+			</behavior>
+		</completion>
 		<completion string="load_image_to_edit">
 			<behavior>
 				<append-dynamic>
@@ -6010,6 +6066,7 @@
 				</append-dynamic>
 			</behavior>
 		</completion>
+		<completion string="post_form_autocomplete_off" />
 		<completion string="post_format_meta_box">
 			<behavior>
 				<append-dynamic>
@@ -6251,7 +6308,7 @@
 			<behavior>
 				<append-dynamic>
 					<matched-suffix>(\s*\()|[^\(]</matched-suffix>
-					<transform-into>(?1::(${1:\\$blog_id}\)$0)</transform-into>
+					<transform-into>(?1::(${1:[\\$blog_id]}\)$0)</transform-into>
 				</append-dynamic>
 			</behavior>
 		</completion>
@@ -7592,6 +7649,14 @@
 				</append-dynamic>
 			</behavior>
 		</completion>
+		<completion string="translations_api">
+			<behavior>
+				<append-dynamic>
+					<matched-suffix>(\s*\()|[^\(]</matched-suffix>
+					<transform-into>(?1::(${1:\\$type}${2:, ${3:[\\$args]}}\)$0)</transform-into>
+				</append-dynamic>
+			</behavior>
+		</completion>
 		<completion string="type_url_form_audio" />
 		<completion string="type_url_form_file" />
 		<completion string="type_url_form_image" />
@@ -7936,6 +8001,7 @@
 		<completion string="upgrade_370" />
 		<completion string="upgrade_372" />
 		<completion string="upgrade_380" />
+		<completion string="upgrade_400" />
 		<completion string="upgrade_all" />
 		<completion string="upgrade_network" />
 		<completion string="upgrade_old_slugs" />
@@ -8117,6 +8183,14 @@
 			</behavior>
 		</completion>
 		<completion string="wlwmanifest_link" />
+		<completion string="wp">
+			<behavior>
+				<append-dynamic>
+					<matched-suffix>(\s*\()|[^\(]</matched-suffix>
+					<transform-into>(?1::(${1:[\\$query_vars]}\)$0)</transform-into>
+				</append-dynamic>
+			</behavior>
+		</completion>
 		<completion string="wp_add_dashboard_widget" />
 		<completion string="wp_add_id3_tag_data">
 			<behavior>
@@ -8355,6 +8429,7 @@
 		<completion string="wp_ajax_meta_box_order" />
 		<completion string="wp_ajax_nopriv_heartbeat" />
 		<completion string="wp_ajax_oembed_cache" />
+		<completion string="wp_ajax_parse_embed" />
 		<completion string="wp_ajax_parse_media_shortcode" />
 		<completion string="wp_ajax_query_attachments" />
 		<completion string="wp_ajax_query_themes" />
@@ -8374,6 +8449,7 @@
 		<completion string="wp_ajax_save_widget" />
 		<completion string="wp_ajax_send_attachment_to_editor" />
 		<completion string="wp_ajax_send_link_to_editor" />
+		<completion string="wp_ajax_set_attachment_thumbnail" />
 		<completion string="wp_ajax_set_post_thumbnail" />
 		<completion string="wp_ajax_time_format" />
 		<completion string="wp_ajax_trash_post">
@@ -8582,6 +8658,7 @@
 				</append-dynamic>
 			</behavior>
 		</completion>
+		<completion string="wp_can_install_language_pack" />
 		<completion string="wp_caption_input_textarea" />
 		<completion string="wp_category_checklist">
 			<behavior>
@@ -9072,6 +9149,9 @@
 				</append-dynamic>
 			</behavior>
 		</completion>
+		<completion string="wp_destroy_all_sessions" />
+		<completion string="wp_destroy_current_session" />
+		<completion string="wp_destroy_other_sessions" />
 		<completion string="wp_die">
 			<behavior>
 				<append-dynamic>
@@ -9081,7 +9161,23 @@
 			</behavior>
 		</completion>
 		<completion string="wp_doc_link_parse" />
+		<completion string="wp_download_language_pack">
+			<behavior>
+				<append-dynamic>
+					<matched-suffix>(\s*\()|[^\(]</matched-suffix>
+					<transform-into>(?1::(${1:\\$download}\)$0)</transform-into>
+				</append-dynamic>
+			</behavior>
+		</completion>
 		<completion string="wp_dropdown_categories">
+			<behavior>
+				<append-dynamic>
+					<matched-suffix>(\s*\()|[^\(]</matched-suffix>
+					<transform-into>(?1::(${1:[\\$args]}\)$0)</transform-into>
+				</append-dynamic>
+			</behavior>
+		</completion>
+		<completion string="wp_dropdown_languages">
 			<behavior>
 				<append-dynamic>
 					<matched-suffix>(\s*\()|[^\(]</matched-suffix>
@@ -9162,6 +9258,14 @@
 			</behavior>
 		</completion>
 		<completion string="wp_embed_handler_video">
+			<behavior>
+				<append-dynamic>
+					<matched-suffix>(\s*\()|[^\(]</matched-suffix>
+					<transform-into>(?1::(${1:\\$matches}, ${2:\\$attr}, ${3:\\$url}, ${4:\\$rawattr}\)$0)</transform-into>
+				</append-dynamic>
+			</behavior>
+		</completion>
+		<completion string="wp_embed_handler_youtube">
 			<behavior>
 				<append-dynamic>
 					<matched-suffix>(\s*\()|[^\(]</matched-suffix>
@@ -9313,6 +9417,7 @@
 			</behavior>
 		</completion>
 		<completion string="wp_generator" />
+		<completion string="wp_get_all_sessions" />
 		<completion string="wp_get_archives">
 			<behavior>
 				<append-dynamic>
@@ -9394,6 +9499,7 @@
 			</behavior>
 		</completion>
 		<completion string="wp_get_audio_extensions" />
+		<completion string="wp_get_available_translations" />
 		<completion string="wp_get_comment_status">
 			<behavior>
 				<append-dynamic>
@@ -9594,6 +9700,7 @@
 			</behavior>
 		</completion>
 		<completion string="wp_get_schedules" />
+		<completion string="wp_get_session_token" />
 		<completion string="wp_get_shortlink">
 			<behavior>
 				<append-dynamic>
@@ -9833,6 +9940,14 @@
 				<append-dynamic>
 					<matched-suffix>(\s*\()|[^\(]</matched-suffix>
 					<transform-into>(?1::(${1:\\$user_id}\)$0)</transform-into>
+				</append-dynamic>
+			</behavior>
+		</completion>
+		<completion string="wp_install_language_form">
+			<behavior>
+				<append-dynamic>
+					<matched-suffix>(\s*\()|[^\(]</matched-suffix>
+					<transform-into>(?1::(${1:\\$languages}\)$0)</transform-into>
 				</append-dynamic>
 			</behavior>
 		</completion>
@@ -11133,6 +11248,7 @@
 				</append-dynamic>
 			</behavior>
 		</completion>
+		<completion string="wp_spaces_regexp" />
 		<completion string="wp_spam_comment">
 			<behavior>
 				<append-dynamic>
@@ -11602,6 +11718,14 @@
 				</append-dynamic>
 			</behavior>
 		</completion>
+		<completion string="wp_validate_boolean">
+			<behavior>
+				<append-dynamic>
+					<matched-suffix>(\s*\()|[^\(]</matched-suffix>
+					<transform-into>(?1::(${1:\\$var}\)$0)</transform-into>
+				</append-dynamic>
+			</behavior>
+		</completion>
 		<completion string="wp_validate_logged_in_cookie">
 			<behavior>
 				<append-dynamic>
@@ -11812,6 +11936,7 @@
 				</append-dynamic>
 			</behavior>
 		</completion>
+		<completion string="wpview_media_sandbox_styles" />
 		<completion string="write_post" />
 		<completion string="xfn_check">
 			<behavior>
