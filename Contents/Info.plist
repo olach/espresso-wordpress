@@ -8,7 +8,7 @@
     <key>CFBundleIdentifier</key>
     <string>se.olachristensson.Espresso.Sugar.WordPress</string>
     <key>CFBundleVersion</key>
-    <string>1.1.0</string>
+    <string>1.1.1</string>
     <!--No need to modify these values-->
     <key>CFBundleInfoDictionaryVersion</key>
     <string>6.0</string>
