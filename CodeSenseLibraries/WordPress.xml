@@ -99,7 +99,14 @@
 		</completion>
 		<completion string="_get_widget_id_base" />
 		<completion string="_hash_hmac" />
-		<completion string="_image_get_preview_ratio" />
+		<completion string="_image_get_preview_ratio">
+			<behavior>
+				<append-dynamic>
+					<matched-suffix>(\s*\()|[^\(]</matched-suffix>
+					<transform-into>(?1::(${1:\\$w}, ${2:\\$h}\)$0)</transform-into>
+				</append-dynamic>
+			</behavior>
+		</completion>
 		<completion string="_ipad_meta" />
 		<completion string="_json_decode_object_helper" />
 		<completion string="_list_meta_row">
@@ -111,6 +118,7 @@
 			</behavior>
 		</completion>
 		<completion string="_maybe_update_core" />
+		<completion string="_mb_strlen" />
 		<completion string="_mb_substr" />
 		<completion string="_media_states" />
 		<completion string="_n">
@@ -173,7 +181,22 @@
 				</append-dynamic>
 			</behavior>
 		</completion>
-		<completion string="_rotate_image_resource" />
+		<completion string="_rotate_image_resource">
+			<behavior>
+				<append-dynamic>
+					<matched-suffix>(\s*\()|[^\(]</matched-suffix>
+					<transform-into>(?1::(${1:\\$img}, ${2:\\$angle}\)$0)</transform-into>
+				</append-dynamic>
+			</behavior>
+		</completion>
+		<completion string="_split_shared_term">
+			<behavior>
+				<append-dynamic>
+					<matched-suffix>(\s*\()|[^\(]</matched-suffix>
+					<transform-into>(?1::(${1:\\$term_id}, ${2:\\$term_taxonomy_id}\)$0)</transform-into>
+				</append-dynamic>
+			</behavior>
+		</completion>
 		<completion string="_update_blog_date_on_post_delete">
 			<behavior>
 				<append-dynamic>
@@ -232,6 +255,22 @@
 				</append-dynamic>
 			</behavior>
 		</completion>
+		<completion string="_wp_check_split_default_terms">
+			<behavior>
+				<append-dynamic>
+					<matched-suffix>(\s*\()|[^\(]</matched-suffix>
+					<transform-into>(?1::(${1:\\$term_id}, ${2:\\$new_term_id}, ${3:\\$term_taxonomy_id}, ${4:\\$taxonomy}\)$0)</transform-into>
+				</append-dynamic>
+			</behavior>
+		</completion>
+		<completion string="_wp_check_split_terms_in_menus">
+			<behavior>
+				<append-dynamic>
+					<matched-suffix>(\s*\()|[^\(]</matched-suffix>
+					<transform-into>(?1::(${1:\\$term_id}, ${2:\\$new_term_id}, ${3:\\$term_taxonomy_id}, ${4:\\$taxonomy}\)$0)</transform-into>
+				</append-dynamic>
+			</behavior>
+		</completion>
 		<completion string="_wp_customize_include" />
 		<completion string="_wp_customize_loader_settings" />
 		<completion string="_wp_dashboard_control_callback" />
@@ -242,6 +281,14 @@
 				<append-dynamic>
 					<matched-suffix>(\s*\()|[^\(]</matched-suffix>
 					<transform-into>(?1::(${1:\\$file}, ${2:\\$overrides}, ${3:\\$time}, ${4:\\$action}\)$0)</transform-into>
+				</append-dynamic>
+			</behavior>
+		</completion>
+		<completion string="_wp_image_editor_choose">
+			<behavior>
+				<append-dynamic>
+					<matched-suffix>(\s*\()|[^\(]</matched-suffix>
+					<transform-into>(?1::(${1:[\\$args]}\)$0)</transform-into>
 				</append-dynamic>
 			</behavior>
 		</completion>
@@ -277,8 +324,22 @@
 				</append-dynamic>
 			</behavior>
 		</completion>
-		<completion string="_wp_post_thumbnail_class_filter_add" />
-		<completion string="_wp_post_thumbnail_class_filter_remove" />
+		<completion string="_wp_post_thumbnail_class_filter_add">
+			<behavior>
+				<append-dynamic>
+					<matched-suffix>(\s*\()|[^\(]</matched-suffix>
+					<transform-into>(?1::(${1:\\$attr}\)$0)</transform-into>
+				</append-dynamic>
+			</behavior>
+		</completion>
+		<completion string="_wp_post_thumbnail_class_filter_remove">
+			<behavior>
+				<append-dynamic>
+					<matched-suffix>(\s*\()|[^\(]</matched-suffix>
+					<transform-into>(?1::(${1:\\$attr}\)$0)</transform-into>
+				</append-dynamic>
+			</behavior>
+		</completion>
 		<completion string="_wp_post_thumbnail_html">
 			<behavior>
 				<append-dynamic>
@@ -287,11 +348,20 @@
 				</append-dynamic>
 			</behavior>
 		</completion>
+		<completion string="_wp_posts_page_notice" />
 		<completion string="_wp_relative_upload_path">
 			<behavior>
 				<append-dynamic>
 					<matched-suffix>(\s*\()|[^\(]</matched-suffix>
 					<transform-into>(?1::(${1:\\$path}\)$0)</transform-into>
+				</append-dynamic>
+			</behavior>
+		</completion>
+		<completion string="_wp_scripts_maybe_doing_it_wrong">
+			<behavior>
+				<append-dynamic>
+					<matched-suffix>(\s*\()|[^\(]</matched-suffix>
+					<transform-into>(?1::(${1:\\$function}\)$0)</transform-into>
 				</append-dynamic>
 			</behavior>
 		</completion>
@@ -744,7 +814,7 @@
 			<behavior>
 				<append-dynamic>
 					<matched-suffix>(\s*\()|[^\(]</matched-suffix>
-					<transform-into>(?1::(${1:[\\$prev]}\)$0)</transform-into>
+					<transform-into>(?1::(${1:${2:[\\$prev]}${3:, ${4:[\\$size]}${5:, ${6:[\\$text]}}}}\)$0)</transform-into>
 				</append-dynamic>
 			</behavior>
 		</completion>
@@ -989,7 +1059,7 @@
 			<behavior>
 				<append-dynamic>
 					<matched-suffix>(\s*\()|[^\(]</matched-suffix>
-					<transform-into>(?1::(${1:\\$cat_name}\)$0)</transform-into>
+					<transform-into>(?1::(${1:\\$cat_name}${2:, ${3:[\\$parent]}}\)$0)</transform-into>
 				</append-dynamic>
 			</behavior>
 		</completion>
@@ -1005,7 +1075,7 @@
 			<behavior>
 				<append-dynamic>
 					<matched-suffix>(\s*\()|[^\(]</matched-suffix>
-					<transform-into>(?1::(${1:${2:[\\$action]}${3:, ${4:[\\$query_arg]}}}\)$0)</transform-into>
+					<transform-into>(?1::(${1:${2:[\\$action]}${3:, ${4:[\\$query_arg]}${5:, ${6:[\\$die]}}}}\)$0)</transform-into>
 				</append-dynamic>
 			</behavior>
 		</completion>
@@ -1497,6 +1567,7 @@
 				</append-dynamic>
 			</behavior>
 		</completion>
+		<completion string="customize_themes_print_templates" />
 		<completion string="dashboard_browser_nag_class" />
 		<completion string="date_i18n">
 			<behavior>
@@ -2401,7 +2472,23 @@
 			<behavior>
 				<append-dynamic>
 					<matched-suffix>(\s*\()|[^\(]</matched-suffix>
-					<transform-into>(?1::(${1:\\$id_or_email}${2:, ${3:[\\$size]}${4:, ${5:[\\$default]}${6:, ${7:[\\$alt]}}}}\)$0)</transform-into>
+					<transform-into>(?1::(${1:\\$id_or_email}${2:, ${3:[\\$size]}${4:, ${5:[\\$default]}${6:, ${7:[\\$alt]}${8:, ${9:[\\$args]}}}}}\)$0)</transform-into>
+				</append-dynamic>
+			</behavior>
+		</completion>
+		<completion string="get_avatar_data">
+			<behavior>
+				<append-dynamic>
+					<matched-suffix>(\s*\()|[^\(]</matched-suffix>
+					<transform-into>(?1::(${1:\\$id_or_email}${2:, ${3:[\\$args]}}\)$0)</transform-into>
+				</append-dynamic>
+			</behavior>
+		</completion>
+		<completion string="get_avatar_url">
+			<behavior>
+				<append-dynamic>
+					<matched-suffix>(\s*\()|[^\(]</matched-suffix>
+					<transform-into>(?1::(${1:\\$id_or_email}${2:, ${3:[\\$args]}}\)$0)</transform-into>
 				</append-dynamic>
 			</behavior>
 		</completion>
@@ -3141,14 +3228,6 @@
 				<append-dynamic>
 					<matched-suffix>(\s*\()|[^\(]</matched-suffix>
 					<transform-into>(?1::(${1:\\$id}, ${2:\\$alt}, ${3:\\$title}, ${4:\\$align}${5:, ${6:[\\$size]}}\)$0)</transform-into>
-				</append-dynamic>
-			</behavior>
-		</completion>
-		<completion string="get_images_from_uri">
-			<behavior>
-				<append-dynamic>
-					<matched-suffix>(\s*\()|[^\(]</matched-suffix>
-					<transform-into>(?1::(${1:\\$uri}\)$0)</transform-into>
 				</append-dynamic>
 			</behavior>
 		</completion>
@@ -3936,7 +4015,6 @@
 			</behavior>
 		</completion>
 		<completion string="get_single_template" />
-		<completion string="get_site_allowed_themes" />
 		<completion string="get_site_by_path">
 			<behavior>
 				<append-dynamic>
@@ -4038,7 +4116,7 @@
 			<behavior>
 				<append-dynamic>
 					<matched-suffix>(\s*\()|[^\(]</matched-suffix>
-					<transform-into>(?1::(${1:\\$post_id}\)$0)</transform-into>
+					<transform-into>(?1::(${1:\\$post_id}${2:, ${3:[\\$taxonomy]}}\)$0)</transform-into>
 				</append-dynamic>
 			</behavior>
 		</completion>
@@ -4163,7 +4241,7 @@
 			<behavior>
 				<append-dynamic>
 					<matched-suffix>(\s*\()|[^\(]</matched-suffix>
-					<transform-into>(?1::(${1:\\$post_id}\)$0)</transform-into>
+					<transform-into>(?1::(${1:\\$post_id}${2:, ${3:[\\$taxonomy]}}\)$0)</transform-into>
 				</append-dynamic>
 			</behavior>
 		</completion>
@@ -4624,6 +4702,7 @@
 				</append-dynamic>
 			</behavior>
 		</completion>
+		<completion string="has_header_image" />
 		<completion string="has_image_size">
 			<behavior>
 				<append-dynamic>
@@ -4668,7 +4747,7 @@
 			<behavior>
 				<append-dynamic>
 					<matched-suffix>(\s*\()|[^\(]</matched-suffix>
-					<transform-into>(?1::(${1:\\$tag}\)$0)</transform-into>
+					<transform-into>(?1::(${1:\\$content}, ${2:\\$tag}\)$0)</transform-into>
 				</append-dynamic>
 			</behavior>
 		</completion>
@@ -4731,7 +4810,7 @@
 			<behavior>
 				<append-dynamic>
 					<matched-suffix>(\s*\()|[^\(]</matched-suffix>
-					<transform-into>(?1::(${1:${2:[\\$title]}${3:, ${4:[\\$limit_styles]}}}\)$0)</transform-into>
+					<transform-into>(?1::(${1:${2:[\\$title]}${3:, ${4:[\\$deprecated]}}}\)$0)</transform-into>
 				</append-dynamic>
 			</behavior>
 		</completion>
@@ -4922,20 +5001,21 @@
 				</append-dynamic>
 			</behavior>
 		</completion>
+		<completion string="install_blog_defaults">
+			<behavior>
+				<append-dynamic>
+					<matched-suffix>(\s*\()|[^\(]</matched-suffix>
+					<transform-into>(?1::(${1:\\$blog_id}, ${2:\\$user_id}\)$0)</transform-into>
+				</append-dynamic>
+			</behavior>
+		</completion>
 		<completion string="install_dashboard" />
 		<completion string="install_global_terms" />
 		<completion string="install_network" />
 		<completion string="install_plugin_information" />
 		<completion string="install_plugin_install_status" />
 		<completion string="install_plugins_favorites_form" />
-		<completion string="install_plugins_upload">
-			<behavior>
-				<append-dynamic>
-					<matched-suffix>(\s*\()|[^\(]</matched-suffix>
-					<transform-into>(?1::(${1:[\\$page]}\)$0)</transform-into>
-				</append-dynamic>
-			</behavior>
-		</completion>
+		<completion string="install_plugins_upload" />
 		<completion string="install_popular_tags">
 			<behavior>
 				<append-dynamic>
@@ -5521,8 +5601,22 @@
 				</append-dynamic>
 			</behavior>
 		</completion>
-		<completion string="make_db_current" />
-		<completion string="make_db_current_silent" />
+		<completion string="make_db_current">
+			<behavior>
+				<append-dynamic>
+					<matched-suffix>(\s*\()|[^\(]</matched-suffix>
+					<transform-into>(?1::(${1:[\\$tables]}\)$0)</transform-into>
+				</append-dynamic>
+			</behavior>
+		</completion>
+		<completion string="make_db_current_silent">
+			<behavior>
+				<append-dynamic>
+					<matched-suffix>(\s*\()|[^\(]</matched-suffix>
+					<transform-into>(?1::(${1:[\\$tables]}\)$0)</transform-into>
+				</append-dynamic>
+			</behavior>
+		</completion>
 		<completion string="make_site_theme" />
 		<completion string="make_site_theme_from_default">
 			<behavior>
@@ -5548,8 +5642,23 @@
 				</append-dynamic>
 			</behavior>
 		</completion>
-		<completion string="maybe_add_column" />
+		<completion string="maybe_add_column">
+			<behavior>
+				<append-dynamic>
+					<matched-suffix>(\s*\()|[^\(]</matched-suffix>
+					<transform-into>(?1::(${1:\\$table_name}, ${2:\\$column_name}, ${3:\\$create_ddl}\)$0)</transform-into>
+				</append-dynamic>
+			</behavior>
+		</completion>
 		<completion string="maybe_add_existing_user_to_blog" />
+		<completion string="maybe_convert_table_to_utf8mb4">
+			<behavior>
+				<append-dynamic>
+					<matched-suffix>(\s*\()|[^\(]</matched-suffix>
+					<transform-into>(?1::(${1:\\$table}\)$0)</transform-into>
+				</append-dynamic>
+			</behavior>
+		</completion>
 		<completion string="maybe_create_table">
 			<behavior>
 				<append-dynamic>
@@ -5593,6 +5702,7 @@
 				</append-dynamic>
 			</behavior>
 		</completion>
+		<completion string="mb_strlen" />
 		<completion string="mbstring_binary_safe_encoding">
 			<behavior>
 				<append-dynamic>
@@ -5645,7 +5755,7 @@
 			<behavior>
 				<append-dynamic>
 					<matched-suffix>(\s*\()|[^\(]</matched-suffix>
-					<transform-into>(?1::(${1:\\$file}, ${2:\\$post_id}${3:, ${4:[\\$desc]}}\)$0)</transform-into>
+					<transform-into>(?1::(${1:\\$file}, ${2:\\$post_id}${3:, ${4:[\\$desc]}${5:, ${6:[\\$return]}}}\)$0)</transform-into>
 				</append-dynamic>
 			</behavior>
 		</completion>
@@ -5657,8 +5767,6 @@
 				</append-dynamic>
 			</behavior>
 		</completion>
-		<completion string="media_upload_audio" />
-		<completion string="media_upload_file" />
 		<completion string="media_upload_flash_bypass" />
 		<completion string="media_upload_form">
 			<behavior>
@@ -5680,7 +5788,6 @@
 		</completion>
 		<completion string="media_upload_header" />
 		<completion string="media_upload_html_bypass" />
-		<completion string="media_upload_image" />
 		<completion string="media_upload_library" />
 		<completion string="media_upload_library_form">
 			<behavior>
@@ -5709,7 +5816,6 @@
 				</append-dynamic>
 			</behavior>
 		</completion>
-		<completion string="media_upload_video" />
 		<completion string="menu_page_url">
 			<behavior>
 				<append-dynamic>
@@ -5894,6 +6000,7 @@
 				</append-dynamic>
 			</behavior>
 		</completion>
+		<completion string="options_discussion_add_js" />
 		<completion string="options_general_add_js" />
 		<completion string="options_permalink_add_js" />
 		<completion string="options_reading_add_js" />
@@ -6279,8 +6386,6 @@
 				</append-dynamic>
 			</behavior>
 		</completion>
-		<completion string="press_it" />
-		<completion string="press_this_media_buttons" />
 		<completion string="prev_post_rel_link">
 			<behavior>
 				<append-dynamic>
@@ -6332,6 +6437,8 @@
 		</completion>
 		<completion string="print_admin_styles" />
 		<completion string="print_column_headers" />
+		<completion string="print_emoji_detection_script" />
+		<completion string="print_emoji_styles" />
 		<completion string="print_footer_scripts" />
 		<completion string="print_head_scripts" />
 		<completion string="print_late_styles" />
@@ -6588,7 +6695,6 @@
 			</behavior>
 		</completion>
 		<completion string="remove_all_shortcodes" />
-		<completion string="remove_custom_background" />
 		<completion string="remove_editor_styles" />
 		<completion string="remove_filter">
 			<behavior>
@@ -7792,10 +7898,6 @@
 				</append-dynamic>
 			</behavior>
 		</completion>
-		<completion string="type_url_form_audio" />
-		<completion string="type_url_form_file" />
-		<completion string="type_url_form_image" />
-		<completion string="type_url_form_video" />
 		<completion string="undismiss_core_update" />
 		<completion string="uninstall_plugin">
 			<behavior>
@@ -8018,7 +8120,7 @@
 			<behavior>
 				<append-dynamic>
 					<matched-suffix>(\s*\()|[^\(]</matched-suffix>
-					<transform-into>(?1::(${1:\\$option}, ${2:\\$value}\)$0)</transform-into>
+					<transform-into>(?1::(${1:\\$option}, ${2:\\$value}${3:, ${4:[\\$autoload]}}\)$0)</transform-into>
 				</append-dynamic>
 			</behavior>
 		</completion>
@@ -8151,6 +8253,7 @@
 		<completion string="upgrade_372" />
 		<completion string="upgrade_380" />
 		<completion string="upgrade_400" />
+		<completion string="upgrade_420" />
 		<completion string="upgrade_all" />
 		<completion string="upgrade_network" />
 		<completion string="upgrade_old_slugs" />
@@ -8494,6 +8597,7 @@
 				</append-dynamic>
 			</behavior>
 		</completion>
+		<completion string="wp_admin_canonical_url" />
 		<completion string="wp_admin_css">
 			<behavior>
 				<append-dynamic>
@@ -8588,6 +8692,8 @@
 		<completion string="wp_ajax_oembed_cache" />
 		<completion string="wp_ajax_parse_embed" />
 		<completion string="wp_ajax_parse_media_shortcode" />
+		<completion string="wp_ajax_press_this_add_category" />
+		<completion string="wp_ajax_press_this_save_post" />
 		<completion string="wp_ajax_query_attachments" />
 		<completion string="wp_ajax_query_themes" />
 		<completion string="wp_ajax_replyto_comment">
@@ -8625,6 +8731,7 @@
 				</append-dynamic>
 			</behavior>
 		</completion>
+		<completion string="wp_ajax_update_plugin" />
 		<completion string="wp_ajax_update_welcome_panel" />
 		<completion string="wp_ajax_update_widget" />
 		<completion string="wp_ajax_upload_attachment" />
@@ -8650,11 +8757,19 @@
 				</append-dynamic>
 			</behavior>
 		</completion>
+		<completion string="wp_attachment_is">
+			<behavior>
+				<append-dynamic>
+					<matched-suffix>(\s*\()|[^\(]</matched-suffix>
+					<transform-into>(?1::(${1:\\$type}${2:, ${3:[\\$post_id]}}\)$0)</transform-into>
+				</append-dynamic>
+			</behavior>
+		</completion>
 		<completion string="wp_attachment_is_image">
 			<behavior>
 				<append-dynamic>
 					<matched-suffix>(\s*\()|[^\(]</matched-suffix>
-					<transform-into>(?1::(${1:[\\$post_id]}\)$0)</transform-into>
+					<transform-into>(?1::(${1:[\\$post]}\)$0)</transform-into>
 				</append-dynamic>
 			</behavior>
 		</completion>
@@ -9046,7 +9161,7 @@
 			<behavior>
 				<append-dynamic>
 					<matched-suffix>(\s*\()|[^\(]</matched-suffix>
-					<transform-into>(?1::(${1:\\$tag_name}\)$0)</transform-into>
+					<transform-into>(?1::(${1:\\$tag_name}${2:, ${3:[\\$taxonomy]}}\)$0)</transform-into>
 				</append-dynamic>
 			</behavior>
 		</completion>
@@ -9226,6 +9341,14 @@
 				</append-dynamic>
 			</behavior>
 		</completion>
+		<completion string="wp_delete_file">
+			<behavior>
+				<append-dynamic>
+					<matched-suffix>(\s*\()|[^\(]</matched-suffix>
+					<transform-into>(?1::(${1:\\$file}\)$0)</transform-into>
+				</append-dynamic>
+			</behavior>
+		</completion>
 		<completion string="wp_delete_link">
 			<behavior>
 				<append-dynamic>
@@ -9382,6 +9505,14 @@
 				</append-dynamic>
 			</behavior>
 		</completion>
+		<completion string="wp_edit_attachments_query_vars">
+			<behavior>
+				<append-dynamic>
+					<matched-suffix>(\s*\()|[^\(]</matched-suffix>
+					<transform-into>(?1::(${1:[\\$q]}\)$0)</transform-into>
+				</append-dynamic>
+			</behavior>
+		</completion>
 		<completion string="wp_edit_posts_query">
 			<behavior>
 				<append-dynamic>
@@ -9454,7 +9585,22 @@
 				</append-dynamic>
 			</behavior>
 		</completion>
-		<completion string="wp_enqueue_media" />
+		<completion string="wp_encode_emoji">
+			<behavior>
+				<append-dynamic>
+					<matched-suffix>(\s*\()|[^\(]</matched-suffix>
+					<transform-into>(?1::(${1:\\$content}\)$0)</transform-into>
+				</append-dynamic>
+			</behavior>
+		</completion>
+		<completion string="wp_enqueue_media">
+			<behavior>
+				<append-dynamic>
+					<matched-suffix>(\s*\()|[^\(]</matched-suffix>
+					<transform-into>(?1::(${1:[\\$args]}\)$0)</transform-into>
+				</append-dynamic>
+			</behavior>
+		</completion>
 		<completion string="wp_enqueue_script">
 			<behavior>
 				<append-dynamic>
@@ -9897,6 +10043,22 @@
 				</append-dynamic>
 			</behavior>
 		</completion>
+		<completion string="wp_get_split_term">
+			<behavior>
+				<append-dynamic>
+					<matched-suffix>(\s*\()|[^\(]</matched-suffix>
+					<transform-into>(?1::(${1:\\$old_term_id}, ${2:\\$taxonomy}\)$0)</transform-into>
+				</append-dynamic>
+			</behavior>
+		</completion>
+		<completion string="wp_get_split_terms">
+			<behavior>
+				<append-dynamic>
+					<matched-suffix>(\s*\()|[^\(]</matched-suffix>
+					<transform-into>(?1::(${1:\\$old_term_id}\)$0)</transform-into>
+				</append-dynamic>
+			</behavior>
+		</completion>
 		<completion string="wp_get_term_taxonomy_parent_id">
 			<behavior>
 				<append-dynamic>
@@ -10145,6 +10307,7 @@
 				</append-dynamic>
 			</behavior>
 		</completion>
+		<completion string="wp_install_maybe_enable_pretty_permalinks" />
 		<completion string="wp_is_large_network">
 			<behavior>
 				<append-dynamic>
@@ -10470,14 +10633,6 @@
 				</append-dynamic>
 			</behavior>
 		</completion>
-		<completion string="wp_login">
-			<behavior>
-				<append-dynamic>
-					<matched-suffix>(\s*\()|[^\(]</matched-suffix>
-					<transform-into>(?1::(${1:\\$username}, ${2:\\$password}${3:, ${4:[\\$deprecated]}}\)$0)</transform-into>
-				</append-dynamic>
-			</behavior>
-		</completion>
 		<completion string="wp_login_form">
 			<behavior>
 				<append-dynamic>
@@ -10558,6 +10713,14 @@
 		<completion string="wp_maybe_load_widgets" />
 		<completion string="wp_maybe_update_network_site_counts" />
 		<completion string="wp_maybe_update_network_user_counts" />
+		<completion string="wp_media_attach_action">
+			<behavior>
+				<append-dynamic>
+					<matched-suffix>(\s*\()|[^\(]</matched-suffix>
+					<transform-into>(?1::(${1:\\$parent_id}${2:, ${3:[\\$action]}}\)$0)</transform-into>
+				</append-dynamic>
+			</behavior>
+		</completion>
 		<completion string="wp_media_insert_url_form">
 			<behavior>
 				<append-dynamic>
@@ -10898,6 +11061,7 @@
 		<completion string="wp_print_footer_scripts" />
 		<completion string="wp_print_head_scripts" />
 		<completion string="wp_print_media_templates" />
+		<completion string="wp_print_request_filesystem_credentials_modal" />
 		<completion string="wp_print_revision_templates" />
 		<completion string="wp_print_scripts">
 			<behavior>
@@ -11302,6 +11466,14 @@
 		<completion string="wp_schedule_update_checks" />
 		<completion string="wp_schedule_update_network_counts" />
 		<completion string="wp_scheduled_delete" />
+		<completion string="wp_script_add_data">
+			<behavior>
+				<append-dynamic>
+					<matched-suffix>(\s*\()|[^\(]</matched-suffix>
+					<transform-into>(?1::(${1:\\$handle}, ${2:\\$key}, ${3:\\$value}\)$0)</transform-into>
+				</append-dynamic>
+			</behavior>
+		</completion>
 		<completion string="wp_script_is">
 			<behavior>
 				<append-dynamic>
@@ -11310,6 +11482,7 @@
 				</append-dynamic>
 			</behavior>
 		</completion>
+		<completion string="wp_scripts" />
 		<completion string="wp_send_json">
 			<behavior>
 				<append-dynamic>
@@ -11487,7 +11660,7 @@
 			<behavior>
 				<append-dynamic>
 					<matched-suffix>(\s*\()|[^\(]</matched-suffix>
-					<transform-into>(?1::(${1:\\$pattern}, ${2:\\$args,...}\)$0)</transform-into>
+					<transform-into>(?1::(${1:\\$pattern}, ${2:\\$args}\)$0)</transform-into>
 				</append-dynamic>
 			</behavior>
 		</completion>
@@ -11505,6 +11678,22 @@
 				<append-dynamic>
 					<matched-suffix>(\s*\()|[^\(]</matched-suffix>
 					<transform-into>(?1::(${1:[\\$args]}\)$0)</transform-into>
+				</append-dynamic>
+			</behavior>
+		</completion>
+		<completion string="wp_staticize_emoji">
+			<behavior>
+				<append-dynamic>
+					<matched-suffix>(\s*\()|[^\(]</matched-suffix>
+					<transform-into>(?1::(${1:\\$text}\)$0)</transform-into>
+				</append-dynamic>
+			</behavior>
+		</completion>
+		<completion string="wp_staticize_emoji_for_email">
+			<behavior>
+				<append-dynamic>
+					<matched-suffix>(\s*\()|[^\(]</matched-suffix>
+					<transform-into>(?1::(${1:\\$mail}\)$0)</transform-into>
 				</append-dynamic>
 			</behavior>
 		</completion>
@@ -11548,6 +11737,7 @@
 				</append-dynamic>
 			</behavior>
 		</completion>
+		<completion string="wp_styles" />
 		<completion string="wp_suspend_cache_addition">
 			<behavior>
 				<append-dynamic>
@@ -12078,7 +12268,6 @@
 				</append-dynamic>
 			</behavior>
 		</completion>
-		<completion string="wpmu_get_blog_allowedthemes" />
 		<completion string="wpmu_log_new_registrations">
 			<behavior>
 				<append-dynamic>
