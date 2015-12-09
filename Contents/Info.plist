@@ -6,7 +6,7 @@
     <key>CFBundleName</key>
     <string>WordPress.sugar</string>
     <key>CFBundleIdentifier</key>
-    <string>se.olachristensson.Espresso.Sugar.WordPress</string>
+    <string>com.github.olach.sugar.wordpress</string>
     <key>CFBundleVersion</key>
     <string>1.4.0</string>
     <!--No need to modify these values-->

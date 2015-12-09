@@ -2,7 +2,7 @@
 <codesense version="1.0">
 	
 	<!-- WordPress Functions -->
-	<set name="se.olachristensson.sugar.wordpress.functions">
+	<set name="com.github.olach.sugar.wordpress.functions">
 		<behavior>
 			<append-dynamic>
 				<matched-suffix>(\s*\()|[^\(]</matched-suffix>
