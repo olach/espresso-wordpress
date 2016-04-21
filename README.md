@@ -19,4 +19,4 @@ Use `tab` and `shift tab` to select the parameters. Optional parameters are wrap
 ## Data source
 The WordPress data for this plugin is gathered using the api from [wpseek.com](http://wpseek.com/). I will do my best to keep the plugin updated with every major WordPress update.
 
-Current version is using data from WordPress 4.4.
+Current version is using data from WordPress 4.5.
