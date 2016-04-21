@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<action-categories>
+	<category id="wordpress.root" show="submenu">
+		<title>WordPress</title>
+	</category>
+	<category id="wordpress.codex" show="inline separated"></category>
+</action-categories>
