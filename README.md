@@ -10,7 +10,7 @@ Start type the name of the desired function and press <kbd>tab</kbd> or <kbd>ent
 
 Use <kbd>tab</kbd> and <kbd>shift</kbd>+<kbd>tab</kbd> to select the parameters. Optional parameters are wrapped in square brackets and can easily be deleted if not used.
 
-![Demo](https://cloud.githubusercontent.com/assets/1300644/20969915/7224f462-bc8b-11e6-89c9-6e2d70c2fe80.gif)
+![Demo](demo.gif)
 
 ### Look up function in WordPress Codex
 Another handy feature is the ability to quickly look up a function in the WordPress Codex.
