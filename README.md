@@ -21,8 +21,7 @@ This feature requires the [ShellActions sugar](https://github.com/onecrayon/Shel
 
 ## Installation
 1. Download and extract the zip
-2. Rename folder to WordPress.sugar
-3. Double click the WordPress.sugar file to install it
+2. Double click the WordPress.sugar file to install it
 
 ## Data source
 The WordPress data for this plugin is gathered using the api from [wpseek.com](http://wpseek.com/). I will do my best to keep the plugin updated with every major WordPress update.
