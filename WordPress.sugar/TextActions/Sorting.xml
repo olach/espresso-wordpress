@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<action-sort-instructions>
+
+	<sort-template>
+		<selector>wordpress.snippets</selector>
+		<selector>wordpress.snippets.wp</selector>
+		<selector>wordpress.snippets.cpt</selector>
+		<selector>wordpress.snippets.wp-config</selector>
+		<selector>wordpress.snippets.css</selector>
+		<selector>wordpress.codex</selector>
+	</sort-template>
+
+</action-sort-instructions>

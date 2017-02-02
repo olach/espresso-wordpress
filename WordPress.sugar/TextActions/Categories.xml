@@ -4,4 +4,11 @@
 		<title>WordPress</title>
 	</category>
 	<category id="wordpress.codex" show="inline separated"></category>
+	<category id="wordpress.snippets" show="submenu">
+		<title>WordPress</title>
+	</category>
+	<category id="wordpress.snippets.wp" show="inline separated"></category>
+	<category id="wordpress.snippets.cpt" show="inline separated"></category>
+	<category id="wordpress.snippets.wp-config" show="inline separated"></category>
+	<category id="wordpress.snippets.css" show="inline separated"></category>
 </action-categories>

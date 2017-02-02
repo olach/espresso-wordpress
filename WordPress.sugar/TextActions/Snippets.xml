@@ -1,0 +1,89 @@
+<?xml version="1.0"?>
+<action-recipes>
+	
+	<snippet category="tools.Snippets/wordpress.snippets/wordpress.snippets.wp">
+		<title>The loop</title>
+		<language-context>php</language-context>
+		<text-trigger>wploop</text-trigger>
+		<text><![CDATA[if (have_posts()):
+	while (have_posts()): the_post();
+		$0
+	endwhile;
+endif;
+]]></text>
+	</snippet>
+	
+	<snippet category="tools.Snippets/wordpress.snippets/wordpress.snippets.cpt">
+		<title>Register Custom Post Type</title>
+		<language-context>php</language-context>
+		<text-trigger>wpcpt</text-trigger>
+		<text><![CDATA[/**
+ * Register a custom post type.
+ *
+ * @link http://codex.wordpress.org/Function_Reference/register_post_type
+ */
+function cpt_${1:lowercase_singular_name}_init() {
+	\$labels = array(
+		'name'               => _x('${3:Plural name}', 'Post type general name', '${2:textdomain}'),
+		'singular_name'      => _x('${4:Singular name}', 'Post type singular name', '${2:textdomain}'),
+		'menu_name'          => __('${3:Plural name}', '${2:textdomain}'),
+		'name_admin_bar'     => __('${4:Singular name}', '${2:textdomain}'),
+		'add_new'            => __('Add new', 'book', '${2:textdomain}'),
+		'add_new_item'       => __('Add new ${5:item}', '${2:textdomain}'),
+		'new_item'           => __('New ${5:item}', '${2:textdomain}'),
+		'edit_item'          => __('Edit ${5:item}', '${2:textdomain}'),
+		'view_item'          => __('View ${5:item}', '${2:textdomain}'),
+		'parent_item_colon'  => __('Parent ${5:item}:', '${2:textdomain}'),
+		'all_items'          => __('All ${6:items}', '${2:textdomain}'),
+		'search_items'       => __('Search ${6:items}', '${2:textdomain}'),
+		'not_found'          => __('No ${6:items} found', '${2:textdomain}'),
+		'not_found_in_trash' => __('No ${6:items} found in trash.', '${2:textdomain}'),
+	);
+
+	\$args = array(
+		'labels'             => \$labels,
+		'description'        => __('${7:Post type description.}', '${2:textdomain}'),
+		'public'             => ${8:true},
+		'publicly_queryable' => ${9:true},
+		'show_ui'            => ${10:true},
+		'show_in_menu'       => ${11:true},
+		'query_var'          => ${12:true},
+		'rewrite'            => array('slug' => '${1:lowercase_singular_name}'),
+		'capability_type'    => '${13:post}',
+		'has_archive'        => ${14:true},
+		'hierarchical'       => ${15:false},
+		'menu_position'      => ${16:null},
+		'supports'           => array(${17:'title', 'editor', 'author', 'thumbnail', 'excerpt', 'comments'}),
+	);
+
+	register_post_type('${1:lowercase_singular_name}', \$args);
+}
+add_action('init', 'cpt_${1:lowercase_singular_name}_init');
+]]></text>
+	</snippet>
+	
+	<snippet category="tools.Snippets/wordpress.snippets/wordpress.snippets.css">
+		<title>Theme head</title>
+		<language-context>css</language-context>
+		<text-trigger>wptheme</text-trigger>
+		<text><![CDATA[/*!
+Theme Name: ${1:Theme Name}
+Theme URI: ${2:http://example.com/}
+Description: ${3:Description}
+Version: ${4:1.0}
+Author: ${5:Your Name}
+Author URI: ${6:http://example.com/}
+Tags: ${7:one, two}
+*/
+$0]]></text>
+	</snippet>
+	
+	<snippet category="tools.Snippets/wordpress.snippets/wordpress.snippets.wp-config">
+		<title>Auth Keys and Salts</title>
+		<language-context>php</language-context>
+		<text-trigger>wpauth</text-trigger>
+		<text><![CDATA[`curl https://api.wordpress.org/secret-key/1.1/salt/`
+]]></text>
+	</snippet>
+	
+</action-recipes>
