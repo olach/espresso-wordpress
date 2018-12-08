@@ -26,4 +26,4 @@ This feature requires the [ShellActions sugar](https://github.com/onecrayon/Shel
 ## Data source
 The WordPress data for this plugin is gathered using the api from [wpseek.com](http://wpseek.com/). I will do my best to keep the plugin updated with every major WordPress update.
 
-Current version is using data from WordPress 4.9.
+Current version is using data from WordPress 5.0.
