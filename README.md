@@ -1,5 +1,5 @@
 # WordPress.sugar for Espresso
-This is a plugin for MacRabbit's [Espresso](http://macrabbit.com/espresso/) code editor with support for [WordPress](http://wordpress.org/).
+This is a plugin for the [Espresso](https://espressoapp.com) code editor with support for [WordPress](http://wordpress.org/).
 
 ## Features
 
