@@ -12,12 +12,10 @@ Use <kbd>tab</kbd> and <kbd>shift</kbd>+<kbd>tab</kbd> to select the parameters.
 
 ![Demo](demo.gif)
 
-### Look up function in WordPress Codex
-Another handy feature is the ability to quickly look up a function in the WordPress Codex.
+### Look up function in WordPress Code Reference
+Another handy feature is the ability to quickly look up a function in the WordPress Code Reference.
 
 Simply place the cursor on a WordPress function and press <kbd>ctrl</kbd>+<kbd>h</kbd> to open the WordPress Codex in your browser. The action is also found in the actions menu.
-
-This feature requires the [ShellActions sugar](https://github.com/onecrayon/ShellActions-sugar) to be installed.
 
 ## Installation
 1. Download and extract the zip

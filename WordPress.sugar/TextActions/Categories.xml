@@ -3,5 +3,5 @@
 	<category id="wordpress.root" show="submenu">
 		<title>WordPress</title>
 	</category>
-	<category id="wordpress.codex" show="inline separated"></category>
+	<category id="wordpress.reference" show="inline separated"></category>
 </action-categories>

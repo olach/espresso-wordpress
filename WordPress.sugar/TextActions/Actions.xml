@@ -1,23 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <action-recipes>
 	
-	<action category="wordpress.root/wordpress.codex/0">
-		<class>OCShellAction</class>
-		<title>Look up function in WordPress Codex</title>
+	<action category="wordpress.root/wordpress.reference/0">
+		<script>openFunction.js</script>
+		<title>Look up function in WordPress Code Reference</title>
+		
 		<language-context>php</language-context>
 		<syntax-context>variable.function, function.definition name</syntax-context>
 		<when-disabled>show</when-disabled>
 		<key-equivalent>control h</key-equivalent>
-		<setup>
-			<script>open_codex_function.sh</script>
-			<suppress-errors>true</suppress-errors>
-			<multiple-selections>false</multiple-selections>
-			<single-selection>true</single-selection>
-			<empty-selection>true</empty-selection>
-			<input>selection</input>
-			<alternate>word</alternate>
-			<output>nothing</output>
-		</setup>
 	</action>
 
 </action-recipes>
