@@ -8,7 +8,6 @@
 		<language-context>php</language-context>
 		<syntax-context>variable.function, function.definition name</syntax-context>
 		<when-disabled>show</when-disabled>
-		<key-equivalent>control h</key-equivalent>
 	</action>
 
 </action-recipes>

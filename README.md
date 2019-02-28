@@ -15,7 +15,7 @@ Use <kbd>tab</kbd> and <kbd>shift</kbd>+<kbd>tab</kbd> to select the parameters.
 ### Look up function in WordPress Code Reference
 Another handy feature is the ability to quickly look up a function in the WordPress Code Reference.
 
-Simply place the cursor on a WordPress function and press <kbd>ctrl</kbd>+<kbd>h</kbd> to open the WordPress Codex in your browser. The action is also found in the actions menu.
+The action is found in the Espresso Action menu under the WordPress folder. Simply select or place the cursor on a WordPress function. Then, run the action to open the WordPress Code Reference in your browser.
 
 ## Installation
 1. Download and extract the zip
